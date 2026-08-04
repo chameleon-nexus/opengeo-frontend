@@ -78,21 +78,21 @@ npm run dev
 
 SaaS 控制台界面预览（完整图集见 [OPENGEO 官网](https://www.shanhugeo.com/opengeo.html#screenshots)）。
 
-| 控制台登录 | 工作台首页 | 新建优化 |
+| 登录 | 待办任务 | 新建优化 |
 | --- | --- | --- |
-| ![控制台登录](./docs/screenshots/s1.png) | ![工作台首页](./docs/screenshots/s2.png) | ![新建优化](./docs/screenshots/s3.png) |
+| ![登录](./docs/screenshots/登录.png) | ![待办任务](./docs/screenshots/待办任务.png) | ![新建优化](./docs/screenshots/新建优化.png) |
 
-| 优化驾驶舱 | 新建优化 · AI 平台 | 解析品牌 · 词包 |
+| 支持平台 | 品牌对比 | 平台排名矩阵 |
 | --- | --- | --- |
-| ![优化驾驶舱](./docs/screenshots/s5.png) | ![AI 平台](./docs/screenshots/s6.png) | ![词包](./docs/screenshots/s7.png) |
+| ![支持平台](./docs/screenshots/支持平台.png) | ![品牌对比](./docs/screenshots/品牌对比.png) | ![平台排名矩阵](./docs/screenshots/平台排名矩阵.png) |
 
-| 现状分析 | 智能优化 | 分析明细 |
+| 分析报告 | 优化agent | 分析明细 |
 | --- | --- | --- |
-| ![现状分析](./docs/screenshots/s8.png) | ![智能优化](./docs/screenshots/s9.png) | ![分析明细](./docs/screenshots/s10.png) |
+| ![分析报告](./docs/screenshots/分析报告.png) | ![优化agent](./docs/screenshots/优化agent.png) | ![分析明细](./docs/screenshots/分析明细.png) |
 
-| 信源库 | 站点管理 |
+| 信源 | 站点管理 |
 | --- | --- |
-| ![信源库](./docs/screenshots/s11.png) | ![站点管理](./docs/screenshots/s12.png) |
+| ![信源](./docs/screenshots/信源.png) | ![站点管理](./docs/screenshots/站点管理.png) |
 
 ## 许可协议
 
