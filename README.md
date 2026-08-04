@@ -72,6 +72,28 @@ npm run dev
 
 请参阅 [AGENTS.md](./AGENTS.md)。
 
+## 界面截图
+
+> 图中品牌均为模拟测试数据，非真实客户数据。
+
+SaaS 控制台界面预览（完整图集见 [OPENGEO 官网](https://www.shanhugeo.com/opengeo.html#screenshots)）。
+
+| 控制台登录 | 工作台首页 | 新建优化 |
+| --- | --- | --- |
+| ![控制台登录](./docs/screenshots/s1.png) | ![工作台首页](./docs/screenshots/s2.png) | ![新建优化](./docs/screenshots/s3.png) |
+
+| 优化驾驶舱 | 新建优化 · AI 平台 | 解析品牌 · 词包 |
+| --- | --- | --- |
+| ![优化驾驶舱](./docs/screenshots/s5.png) | ![AI 平台](./docs/screenshots/s6.png) | ![词包](./docs/screenshots/s7.png) |
+
+| 现状分析 | 智能优化 | 分析明细 |
+| --- | --- | --- |
+| ![现状分析](./docs/screenshots/s8.png) | ![智能优化](./docs/screenshots/s9.png) | ![分析明细](./docs/screenshots/s10.png) |
+
+| 信源库 | 站点管理 |
+| --- | --- |
+| ![信源库](./docs/screenshots/s11.png) | ![站点管理](./docs/screenshots/s12.png) |
+
 ## 许可协议
 
 MIT 协议，详见 [LICENSE](./LICENSE)。
