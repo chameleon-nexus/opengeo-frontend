@@ -1,0 +1,40 @@
+{
+  "title": "Sign In",
+  "subtitle": "AI-powered brand visibility and content optimization platform",
+  "heroTitle": "Next-generation",
+  "heroTitleLine2": "Generative Engine Optimization Platform",
+  "heroSubtitle": "GEO · Generative Engine Optimization",
+  "welcome": "Welcome back",
+  "welcomeHint": "Sign in to access your console",
+  "features": {
+    "analysis": "AI-driven brand visibility analysis and optimization",
+    "content": "Intelligent multi-platform content generation and distribution",
+    "monitoring": "Real-time competitor monitoring and industry insights"
+  },
+  "form": {
+    "username": "Account",
+    "password": "Password",
+    "usernamePlaceholder": "Enter username",
+    "passwordPlaceholder": "Enter password",
+    "submit": "Sign In",
+    "submitting": "Verifying..."
+  },
+  "agreement": {
+    "prefix": "I have read and agree to the",
+    "privacy": "Privacy Policy",
+    "and": "and",
+    "terms": "Terms of Service"
+  },
+  "errors": {
+    "agreementRequired": "Please read and agree to the Privacy Policy and Terms of Service",
+    "loginFailed": "Sign in failed. Please check your credentials."
+  },
+  "header": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "login": "Sign In / Register",
+    "dashboard": "Dashboard",
+    "geo": "GEO"
+  }
+}

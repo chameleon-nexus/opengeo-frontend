@@ -1,0 +1,165 @@
+{
+  "merchantProfile": {
+    "pageTitle": "Company Profile",
+    "subtitle": "Legal entity information for agreements and contact",
+    "actions": {
+      "save": "Save",
+      "saving": "Saving…"
+    },
+    "form": {
+      "companyName": "Company name",
+      "companyNamePlaceholder": "e.g. Shanghai Example Technology Co., Ltd.",
+      "contactEmail": "Contact email",
+      "contactEmailPlaceholder": "For agreements and contact",
+      "address": "Address",
+      "addressPlaceholder": "e.g. No. 1 Example Road, Example District, Shanghai",
+      "legalRepresentative": "Legal representative",
+      "legalRepresentativePlaceholder": "e.g. Zhang San"
+    },
+    "errors": {
+      "loadFailed": "Failed to load",
+      "saveFailed": "Save failed"
+    },
+    "loading": "Loading…",
+    "legalInfo": "Legal information",
+    "legalInfoHint": "Configure ICP and PSB filing numbers in AIEO Website; footer and privacy policy use that config.",
+    "legalRepresentativeLabel": "Legal representative",
+    "agreementHint": "Enter accurate information; it is used to generate your sub-site User Agreement and Privacy Policy."
+  },
+  "brandManagement": {
+    "pageTitle": "Brand Management",
+    "subtitle": "Manage brands, categories and products",
+    "actions": {
+      "create": "Create brand",
+      "save": "Save",
+      "saving": "Saving…",
+      "delete": "Delete",
+      "assignCustomer": "Assign customer",
+      "addCategory": "Add category",
+      "addProduct": "Add product"
+    },
+    "form": {
+      "brandId": "Brand ID",
+      "brandIdPlaceholder": "Enter brand ID (e.g. philips)",
+      "brandName": "Brand name",
+      "brandNamePlaceholder": "Enter brand name…",
+      "customer": "Customer account",
+      "noCustomers": "No customer accounts",
+      "unassignCustomer": "Unassign (remove customer)",
+      "unassignCustomerNew": "Unassign (not assigned yet)",
+      "categoryName": "Category name",
+      "categoryNamePlaceholder": "Enter new category name…",
+      "productModel": "Product model",
+      "productModelPlaceholder": "Enter product model…"
+    },
+    "empty": {
+      "noCustomersHint": "Create customer accounts in Account Management first"
+    },
+    "confirm": {
+      "deleteBrand": "Delete this brand? All product data will also be deleted.",
+      "deleteCategory": "Delete this category? All products under it will also be deleted.",
+      "deleteProduct": "Delete this product?"
+    },
+    "errors": {
+      "loadFailed": "Failed to load brand catalog",
+      "createFailed": "Failed to create brand",
+      "updateFailed": "Update failed",
+      "deleteFailed": "Delete failed",
+      "requireBrandFields": "Please enter brand name and brand ID",
+      "requireLogin": "Please log in first",
+      "requireAdmin": "Admin permission required. Please log in with an admin account.",
+      "forbidden": "Insufficient permission. Admin access required."
+    }
+  },
+  "contactSubmissions": {
+    "pageTitle": "Contact Messages",
+    "subtitle": "Inbound contact form submissions",
+    "actions": {
+      "refresh": "Refresh",
+      "view": "View details",
+      "delete": "Delete"
+    },
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "createdAt": "Submitted at",
+      "actions": "Actions",
+      "phone": "Contact",
+      "company": "Company",
+      "time": "Time",
+      "status": "Status"
+    },
+    "empty": {
+      "noMessages": "No contact messages yet",
+      "noMessagesHint": "Messages appear here when visitors submit the contact form on your sub-site"
+    },
+    "confirm": {
+      "delete": "Delete this message?"
+    },
+    "errors": {
+      "deleteFailed": "Delete failed"
+    },
+    "loading": "Loading…",
+    "pageTitleAlt": "Contact Messages",
+    "pageTitleSite": "Contact leads",
+    "status": {
+      "read": "Read",
+      "new": "New"
+    },
+    "detail": {
+      "title": "Message details",
+      "close": "Close",
+      "name": "Name",
+      "phone": "Primary contact",
+      "contacts": "All contacts",
+      "company": "Company",
+      "message": "Message",
+      "source": "Source",
+      "ip": "IP",
+      "time": "Time"
+    },
+    "pagination": {
+      "total": "{{count}} messages total"
+    }
+  },
+  "businessIntro": {
+    "pageTitle": "Business Overview",
+    "subtitle": "Homepage business capabilities / Our Services block",
+    "subtitleSite": "Configured per site in Site Workbench",
+    "subtitleLegacy": "Legacy per-merchant config; prefer Site Workbench",
+    "actions": {
+      "save": "Save",
+      "saving": "Saving…",
+      "upload": "Upload image",
+      "removeStep": "Remove step"
+    },
+    "form": {
+      "blockTitle": "Block title",
+      "blockTitlePlaceholder": "Our Services",
+      "stepTitle": "Step title",
+      "stepDescription": "Short description",
+      "stepDetail": "Expanded detail (shown on hover)",
+      "backgroundUrl": "Background image URL (or upload)",
+      "buttonText": "Button text",
+      "buttonLink": "Button link"
+    },
+    "errors": {
+      "uploadFailed": "Upload failed",
+      "saveFailed": "Save failed"
+    },
+    "loading": "Loading…",
+    "stepsList": "Steps",
+    "addStep": "Add step",
+    "uploadBackground": "Upload background"
+  },
+  "templateSiteAIEO": {
+    "noSites": "No template sites",
+    "noSitesHint": "Create a template site in Site Management first, then configure company intro and front-end content.",
+    "selectSiteTitle": "Select template site to configure",
+    "selectSiteHint": "Company intro and business overview are saved per site. Pick one from the list.",
+    "noDomain": "No domain bound",
+    "switchSite": "Switch site",
+    "openInWorkbench": "Open in site workbench"
+  }
+}

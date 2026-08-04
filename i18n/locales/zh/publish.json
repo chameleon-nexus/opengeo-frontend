@@ -1,0 +1,269 @@
+{
+  "sourceHub": {
+    "pageTitle": "信源库",
+    "subtitle": "国内与出海媒体发布入口",
+    "empty": "当前角色暂无可用信源库功能",
+    "sections": {
+      "domestic": "国内",
+      "overseas": "出海"
+    },
+    "entries": {
+      "thirdPartyPublish": {
+        "label": "三方权威媒体",
+        "description": "国内三方权威媒体发稿待办"
+      },
+      "socialMediaAccounts": {
+        "label": "出海自媒体账号",
+        "description": "绑定与管理出海自媒体账号"
+      },
+      "publishRecords": {
+        "label": "出海自媒体发布",
+        "description": "查看出海自媒体发布记录"
+      },
+      "overseasThirdPartyPublish": {
+        "label": "三方出海媒体",
+        "description": "出海三方媒体发稿待办"
+      }
+    }
+  },
+  "status": {
+    "generated": "已生成",
+    "pending": "待发布",
+    "partial": "部分已发布",
+    "published": "已发布"
+  },
+  "pageTitle": "三方媒体发布",
+  "subtitle": "管理国内与出海媒体发稿任务",
+  "actions": {
+    "back": "返回",
+    "refresh": "刷新列表",
+    "search": "搜索",
+    "export": "导出",
+    "exporting": "导出中…",
+    "import": "导入",
+    "submitPending": "提交待发布",
+    "submitting": "提交中…",
+    "delete": "删除",
+    "deleting": "删除中…",
+    "editArticle": "编辑文章",
+    "viewArticle": "查看文章",
+    "save": "保存",
+    "saveWorkflowTier": "保存工作流档位"
+  },
+  "table": {
+    "taskName": "任务名称",
+    "keywords": "关键词",
+    "status": "状态",
+    "articleCount": "文章数",
+    "createdAt": "创建时间",
+    "actions": "操作",
+    "title": "标题",
+    "entry": "词条",
+    "content": "正文"
+  },
+  "form": {
+    "searchAdmin": "搜索任务名称、状态…",
+    "searchMerchant": "搜索任务名称、关键词、状态…",
+    "searchArticle": "搜索标题、词条或正文…"
+  },
+  "empty": {
+    "noTasks": "没有匹配的任务",
+    "noWorkflowTasks": "本优化主线暂无媒体发布任务；若文章仍在生成中，请稍后在「智能优化任务」查看入队状态后刷新",
+    "noArticles": "暂无文章"
+  },
+  "confirm": {
+    "submitPending": "确认将本组文章提交为待发布？提交后平台运营将处理发稿。"
+  },
+  "errors": {
+    "exportFailed": "导出失败",
+    "deleteFailed": "删除失败",
+    "submitFailed": "提交失败",
+    "saveFailed": "保存失败",
+    "importFailed": "导入失败",
+    "markFailed": "标记失败",
+    "batchDeleteFailed": "批量删除失败",
+    "bodyRequired": "正文不能为空"
+  },
+  "batchPanel": {
+    "backToList": "返回列表",
+    "backToArticles": "返回文章列表",
+    "adminTitle": "处理 · {{name}}",
+    "editTitle": "编辑文章 · {{name}}",
+    "articleCount": "本组共 {{count}} 篇",
+    "hintEditable": " · 可修改正文后提交待发布",
+    "hintAdminViewTier": " · 点击文章查看生效媒体档",
+    "hintViewOnly": " · 仅查看",
+    "copyFullText": "复制全文",
+    "removeFromBatch": "从批次移除",
+    "effectiveMediaTier": "生效媒体档",
+    "currentEffective": "当前生效：{{label}}{{source}}；单篇优先于批次、批次优先于工作流。",
+    "saveMediaTier": "保存媒体档",
+    "sourceLabel": "来源：{{source}}",
+    "sourceDefault": "来源：系统默认",
+    "noBody": "暂无正文",
+    "batchDefaultTier": "批次默认媒体档",
+    "batchDefaultHint": "未单独指定的文章将使用此档位；不选则继承工作流默认。",
+    "saveBatchTier": "保存批次档位",
+    "groupArticles": "本组文章",
+    "selectAll": "全选",
+    "deselectAll": "取消全选",
+    "selectedCount": "已选 {{count}} 篇",
+    "markPublished": "标记已发布",
+    "articleTitleCol": "文章标题",
+    "effectiveTierCol": "生效媒体档",
+    "published": "已发布",
+    "defaultTier": "普通媒体",
+    "pointsPerArticle": "{{count}} 积分/篇",
+    "entryLabel": "词条：{{text}}",
+    "saved": "已保存",
+    "selectDocx": "请选择 .docx 文件",
+    "importResult": "已导入 {{count}} 篇",
+    "importPartial": "已导入 {{count}} 篇；部分失败：\n{{errors}}",
+    "selectToDelete": "请先选择要删除的文章",
+    "confirmRemoveOne": "确定从本批次移除「{{title}}」？",
+    "confirmRemoveAll": "确定从本批次移除全部 {{count}} 篇文章？移除后该发稿任务将被删除。",
+    "confirmRemoveSelected": "确定从本批次移除已选的 {{count}} 篇文章？",
+    "selectToMark": "请先选择要标记的文章",
+    "allPublished": "所选文章均已发布",
+    "confirmMarkPublished": "确定将已选的 {{count}} 篇文章标记为已发布？",
+    "allGroupPublished": "本组文章已全部发布",
+    "markedPublished": "已标记 {{count}} 篇为已发布"
+  },
+  "socialMediaAccounts": {
+    "pageTitle": "出海自媒体账号",
+    "pageSubtitle": "出海自媒体账号绑定与管理",
+    "overseasBadge": "出海",
+    "addTitle": "添加出海自媒体账号",
+    "addSubtitle": "填写凭证即可在本页绑号；需跳转官方授权的平台将打开对应授权页",
+    "backToList": "返回账号列表",
+    "back": "返回",
+    "formTitle": "填写凭证 · {{platform}}",
+    "formSubtitle": "在本页填写平台凭证，确认后将用于出海自媒体发稿。",
+    "credentials": "平台凭证",
+    "confirmBind": "确认绑定",
+    "binding": "绑定中…",
+    "cancel": "取消",
+    "oauthTitle": "平台授权 · {{platform}}",
+    "oauthSubtitle": "该平台需跳转到官方页面完成 OAuth，完成后账号会出现在列表中。",
+    "oauthSteps": "授权步骤",
+    "oauthStep1": "点击下方「前往授权」打开平台授权页",
+    "oauthStep2": "在平台完成登录并同意授权",
+    "oauthStep3": "关闭授权窗口后返回本页，列表将自动刷新",
+    "goAuthorize": "前往授权",
+    "waitingOAuth": "等待授权完成…",
+    "sync": "同步",
+    "addAccount": "新增自媒体",
+    "authorized": " · 已授权",
+    "unauthorized": " · 未授权",
+    "delete": "删除",
+    "otherPlatform": "其他账号",
+    "serviceUnavailable": "出海发稿服务暂不可用，请联系运维或稍后再试。",
+    "allowPopup": "请允许弹窗以完成授权",
+    "oauthUrlFailed": "获取授权链接失败",
+    "invalidField": "请填写有效的「{{label}}」",
+    "bindFailed": "绑定失败",
+    "syncFailed": "同步失败",
+    "confirmDelete": "确定删除该出海自媒体账号？",
+    "deleteFailed": "删除失败"
+  },
+  "publishRecords": {
+    "pageTitle": "出海自媒体发布",
+    "pageSubtitle": "出海自媒体发稿记录",
+    "overseasBadge": "出海",
+    "filterHint": "当前仅显示优化任务 {{taskId}} 的发布记录",
+    "clearFilter": "清除筛选",
+    "searchPlaceholder": "搜索关键词、任务 ID、账号…",
+    "refreshList": "刷新列表",
+    "newPublish": "新增发布",
+    "allPublishTypes": "全部发布类型",
+    "allPushStatus": "全部推送状态",
+    "draftOnly": "仅查看草稿",
+    "articleKeyword": "文章/关键词",
+    "account": "账号",
+    "status": "状态",
+    "platformStatus": "平台状态",
+    "createdAt": "创建时间",
+    "actions": "操作",
+    "loading": "加载中…",
+    "emptyHint": "暂无发布任务，点击「新增发布」创建",
+    "noMatch": "没有匹配的发布记录",
+    "retrySend": "再次发送",
+    "retryFailed": "再次发送失败",
+    "totalLoaded": "共 {{total}} 条，当前加载 {{loaded}} 条",
+    "localFilter": " · 本地筛选显示 {{count}} 条",
+    "localFilterOnly": "本地筛选显示 {{filtered}} / {{total}} 条",
+    "recordStatus": {
+      "pending": "待发布",
+      "submitted": "已提交",
+      "success": "成功",
+      "failed": "失败"
+    }
+  },
+  "mediaTierSource": {
+    "article": "本篇文章",
+    "batch": "批次默认",
+    "workflow": "工作流默认",
+    "default": "系统默认"
+  },
+  "mediaTier": {
+    "showcase": {
+      "title": "合作媒体覆盖",
+      "subtitle": "覆盖主流权威媒体与内容平台，助力品牌权威发声",
+      "overseasTitle": "出海合作媒体覆盖",
+      "overseasSubtitle": "覆盖国际主流权威媒体与内容平台，助力品牌出海发声"
+    },
+    "picker": {
+      "loading": "加载媒体档…",
+      "empty": "暂无媒体档配置",
+      "inheritDefault": "跟随批次默认",
+      "saveHint": "修改后请点击保存生效",
+      "saving": "保存中…"
+    },
+    "hint": {
+      "viewSummary": "查看档位说明"
+    },
+    "tiers": {
+      "standard": {
+        "label": "普通媒体",
+        "summary": "主流自媒体与综合内容平台，如网易、搜狐、今日头条等"
+      },
+      "premium": {
+        "label": "精选媒体",
+        "summary": "垂直领域精选媒体，如汽车之家、易车等行业头部平台"
+      },
+      "authority": {
+        "label": "权威媒体",
+        "summary": "国家级权威媒体，如新华网、人民网等党媒央媒"
+      }
+    },
+    "overseasTiers": {
+      "standard": {
+        "summary": "主流国际内容与资讯平台，如 Yahoo、MSN、Medium、TechCrunch 等"
+      },
+      "premium": {
+        "summary": "全球主流新闻与商业媒体，如 Forbes、CNN、BBC 等"
+      },
+      "authority": {
+        "summary": "国际通讯社与权威通稿平台，如 Reuters、Bloomberg、AP News、PR Newswire 等"
+      }
+    }
+  },
+  "workflowConfig": {
+    "title": "工作流发稿设置",
+    "hint": "以下为本工作流默认值；可在批次或单篇文章中覆盖。",
+    "defaultTier": "默认媒体档",
+    "skipReview": "免审核",
+    "skipReviewHint": "开启后，本工作流周期入队及手动创建的发稿任务将直接进入「待发布」。",
+    "saving": "保存中…",
+    "articleUnit": "{{count}}篇",
+    "articleUnitShort": "{{count}}篇",
+    "process": "处理",
+    "selectArticles": "选择内容生成的文章（可多选）",
+    "selectAllPage": "本页全选/取消",
+    "allCompletedArticles": "全部已完成生成文章 · 共 {{total}} 条",
+    "selectedCount": " · 已勾选 {{count}} 篇",
+    "publishCountLabel": "媒体发布数量（篇）",
+    "articleSuffix": "篇",
+    "startTraining": "开始训练"
+  }
+}

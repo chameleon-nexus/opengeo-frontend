@@ -1,0 +1,128 @@
+{
+  "pageTitle": "内容生成",
+  "pageTitleWorkflow": "文章生成",
+  "moduleSubtitle": "选择词包和模板，批量生成高质量文章",
+  "subtitle": "管理所有内容生成任务",
+  "subtitleWorkflow": "本优化任务的内容批次",
+  "loading": "加载中...",
+  "actions": {
+    "back": "返回",
+    "backToList": "返回列表",
+    "backToWorkbench": "返回优化工作台",
+    "refresh": "刷新",
+    "refreshList": "刷新列表",
+    "filter": "按关键词筛选",
+    "createTask": "创建内容生成任务",
+    "copyArticle": "复制文章",
+    "copied": "已复制",
+    "downloadWord": "下载 Word",
+    "downloadWordRongmei": "下载 Word（融媒宝）",
+    "downloadZip": "下载 ZIP",
+    "downloadBatchZip": "下载本批 ZIP（融媒宝）"
+  },
+  "table": {
+    "batchId": "批次 ID",
+    "time": "时间",
+    "keyword": "关键词",
+    "status": "状态",
+    "articleCount": "文章数",
+    "createdAt": "创建时间",
+    "actions": "操作"
+  },
+  "articlesTable": {
+    "index": "#",
+    "title": "文章标题",
+    "keyword": "关键词",
+    "template": "模板",
+    "status": "状态",
+    "actions": "操作"
+  },
+  "batchArticles": {
+    "title": "批次文章",
+    "articleCount": "{{count}} 篇"
+  },
+  "articles": {
+    "rewrite": "仿写",
+    "templatePrefix": "模板:",
+    "keywordPrefix": "词条:",
+    "empty": "暂无文章"
+  },
+  "status": {
+    "completed": "已完成",
+    "processing": "生成中",
+    "failed": "失败",
+    "pending": "待处理"
+  },
+  "form": {
+    "searchPlaceholder": "搜索批次ID或关键词"
+  },
+  "empty": {
+    "noTasks": "暂无生成任务",
+    "noArticles": "暂无文章内容",
+    "noResults": "无匹配结果",
+    "noData": "暂无数据",
+    "createHint": "点击列表上方「创建内容生成任务」",
+    "generating": "生成中..."
+  },
+  "detail": {
+    "title": "文章详情",
+    "generatedArticle": "生成的文章"
+  },
+  "module": {
+    "ragKb": "关联 RAG 知识库",
+    "optional": "可选",
+    "noData": "暂无数据",
+    "knowledgeGraph": "知识图谱",
+    "kgRequired": "必选 · 来自知识图谱模块",
+    "noKgTasks": "暂无知识图谱任务",
+    "createKgFirst": "请先在侧栏「知识图谱」中创建并完成图谱任务",
+    "selectPack": "选择词包",
+    "packTypesHint": "普通、手动与语义词条词包",
+    "noPacks": "暂无词包",
+    "createPackFirst": "请先在词条生成流程中创建词包",
+    "packTypes": {
+      "normal": "普通",
+      "manual": "手动",
+      "semantic": "语义"
+    },
+    "keywordCount": "{{count}} 个关键词",
+    "selectKeywords": "选择词条",
+    "manualHint": "可多选，每个词条生成一篇文章",
+    "selectAll": "全选",
+    "loadingKeywords": "加载词条中...",
+    "noKeywords": "该任务暂无词条",
+    "selectedCount": "已选择 {{count}} 个关键词：",
+    "semanticHint": "语义词包分为核心词与扩展词，可按区全选或单选",
+    "coreWords": "核心词",
+    "extensionWords": "扩展词",
+    "selectSection": "本区全选",
+    "score": "评分: {{score}}",
+    "normalPack": "普通词包",
+    "coreWordsLabel": "核心词：",
+    "allKeywordsParticipate": "共 {{count}} 个词条，全部参与生成",
+    "templates": "范文模板",
+    "templatesHint": "可选，选多个模板 = 多生成一篇文章；不选则使用默认风格",
+    "noTemplates": "暂无范文模板",
+    "addTemplatesHint": "请在「个人中心」添加范文模板",
+    "charCount": "{{count}} 字",
+    "promotedBrand": "推广品牌",
+    "promotedBrandHint": "可选，填写后排行榜类文章会将此品牌排第一，其他类型文章重点宣传",
+    "promotedBrandPlaceholder": "输入需要推广的品牌名称",
+    "promotedBrandPreview": "推广品牌：{{brand}} — AI 将联网搜索行业竞品并在文章中重点推广此品牌",
+    "articleEstimate": "预计生成 {{count}} 篇文章",
+    "articleEstimateDetail": "({{kw}} 个词 × {{tpl}} 个模板)",
+    "submitting": "提交中...",
+    "startGenerate": "开始生成"
+  },
+  "errors": {
+    "loadFailed": "加载详情失败",
+    "downloadWordFailed": "下载 Word 失败",
+    "downloadZipFailed": "下载 ZIP 失败",
+    "invalidTask": "无效的任务数据",
+    "selectPack": "请选择词包",
+    "selectKg": "请选择知识图谱（请先在「知识图谱」中创建任务）",
+    "selectKeyword": "请至少选择一个关键词",
+    "noKeywordsInPack": "词包中没有可用的关键词",
+    "generateFailed": "生成失败: {{message}}"
+  }
+}

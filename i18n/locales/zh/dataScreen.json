@@ -1,0 +1,91 @@
+{
+  "pageTitle": "分析明细",
+  "subtitle": "品牌可见性与曝光分析",
+  "actions": {
+    "back": "返回",
+    "backToQuickStart": "返回快速开始",
+    "share": "分享",
+    "shareCopied": "已复制",
+    "refresh": "刷新",
+    "shareLinkTitle": "复制免登录分享链接",
+    "exportExcel": "导出 Excel"
+  },
+  "period": {
+    "today": "今天",
+    "yesterday": "昨天",
+    "last7Days": "近7天",
+    "last30Days": "近30天",
+    "custom": "自定义",
+    "placeholder": "选择日期范围",
+    "ariaLabel": "时间范围"
+  },
+  "tabs": {
+    "allReports": "全部报表",
+    "qaReports": "问答报表",
+    "brandReports": "品牌报表"
+  },
+  "wizard": {
+    "title": "快速开始",
+    "subtitle": "按 GEO 全生命周期引导",
+    "bannerTitle": "快速开始",
+    "bannerHint": "请按照引导开始优化你的品牌",
+    "enterGuide": "进入引导"
+  },
+  "sections": {
+    "totalCollected": "收录总量",
+    "platformCount": "收录平台",
+    "contactExposure": "联系方式曝光量",
+    "officialLinkExposure": "官网链接曝光量",
+    "overallExposureRate": "总体露出率",
+    "todayTrend": "今日",
+    "wordCloud": "top语义词云",
+    "semanticWords": "top语义词",
+    "platformShare": "各平台优化语义词数量占比",
+    "dataMetrics": "数据指标",
+    "reportDetail": "报表明细",
+    "top3Share": "top3占比"
+  },
+  "table": {
+    "rank": "序号",
+    "auditTime": "核查时间",
+    "coreWord": "核心词",
+    "question": "提问例句",
+    "platform": "发布平台",
+    "credential": "凭证",
+    "semanticWord": "语义词",
+    "loadingDetail": "加载报表明细…"
+  },
+  "wordCloud": {
+    "noData": "暂无词云数据（报告中无 Top 关键词）",
+    "layoutFailed": "词云无法在当前画布内排布（关键词过长或画布过小）",
+    "tooltipCount": "数量: {{value}}"
+  },
+  "empty": {
+    "selectDateRange": "请选择开始和结束日期",
+    "noReportData": "暂无报表明细数据",
+    "noVisibilityData": "暂无可见性数据",
+    "noAnalyticsData": "暂无分析明细数据",
+    "completeDiagnosisFirst": "请先完成一次品牌诊断或优化周期中的报告步骤"
+  },
+  "disclaimer": "特别申明: AI大模型搜索结果千人千面，若有波动也属于合理范围。",
+  "updatedAt": "更新时间: {{date}}",
+  "cycle": "第{{number}}周期",
+  "errors": {
+    "loadFailed": "加载失败",
+    "shareFailed": "创建分享失败",
+    "exportFailed": "导出失败"
+  },
+  "brandLogoAlt": "珊瑚GEO",
+  "platforms": {
+    "doubao": "豆包",
+    "deepseek": "DeepSeek",
+    "wenxin": "文心一言",
+    "qianwen": "千问",
+    "yuanbao": "元宝",
+    "kimi": "Kimi",
+    "quark": "夸克",
+    "nami": "纳米",
+    "xunfei": "讯飞星火",
+    "zhipu": "智谱"
+  }
+}

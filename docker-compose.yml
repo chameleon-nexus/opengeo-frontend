@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://47.99.191.166:8001}
+    ports:
+      - "8099:80"
+    restart: always
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

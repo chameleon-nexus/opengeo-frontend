@@ -1,0 +1,41 @@
+{
+  "pageTitle": "GEO Brand Diagnosis Report",
+  "reportTitle": "{{brandName}} GEO Brand Diagnosis Report",
+  "diagnosisTime": "Diagnosis time: {{dateTime}}",
+  "loadingReport": "Loading report…",
+  "noReportData": "No diagnosis report data available",
+  "noAvailableReport": "No report available",
+  "actions": {
+    "back": "Back",
+    "exportPdf": "Export PDF",
+    "exportingPdf": "Exporting…",
+    "share": "Share",
+    "shareCopied": "Copied",
+    "startOptimization": "Start optimization"
+  },
+  "sections": {
+    "brandScoreLeaderboard": "Brand Score Leaderboard",
+    "brandScoreLeaderboardHint": "Ranked by AI conversation mention visibility score. If your brand is outside Top 5, your actual rank is shown. Click competitors to switch PK comparison below.",
+    "brandVisibility": "Brand Visibility Analysis",
+    "aiCompetitiveness": "AI Platform Competitiveness",
+    "aiMentionRanking": "AI Mention Leaderboard",
+    "positiveKeywords": "Positive Mention Keywords",
+    "modelCitationPreference": "Model Citation Preference",
+    "optimizationSuggestions": "Optimization Suggestions",
+    "thisBrand": "This brand",
+    "industryAverage": "Industry average"
+  },
+  "status": {
+    "mentioned": "Mentioned",
+    "notMentioned": "Not mentioned"
+  },
+  "empty": {
+    "noReport": "No report available",
+    "noSuggestions": "No optimization suggestions"
+  },
+  "errors": {
+    "loadFailed": "Failed to load",
+    "shareFailed": "Failed to create share link",
+    "missingBrandOrKeywords": "Brand name or core keywords missing in report. Cannot create optimization task."
+  }
+}

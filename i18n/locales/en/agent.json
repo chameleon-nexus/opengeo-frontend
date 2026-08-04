@@ -1,0 +1,115 @@
+{
+  "optimizationAgent": {
+    "pageTitle": "Optimization Agent",
+    "subtitle": "Scheduled GEO optimization tasks",
+    "subtitleDetail": "Manage scheduled optimization (generation, publishing, and diagnosis acceptance)",
+    "createMonitoring": "Create monitoring task",
+    "loading": "Loading…",
+    "actions": {
+      "back": "Back",
+      "create": "Create task",
+      "refresh": "Refresh",
+      "view": "View details",
+      "remove": "Remove from list"
+    },
+    "table": {
+      "brand": "Brand",
+      "taskId": "Task ID",
+      "keywords": "Keywords",
+      "schedule": "Schedule",
+      "status": "Status",
+      "nextRun": "Next run",
+      "actions": "Actions"
+    },
+    "form": {
+      "searchPlaceholder": "Search brand, task ID or keywords"
+    },
+    "schedule": {
+      "hourly6": "Every 6 hours",
+      "daily": "Daily",
+      "weekly": "Weekly"
+    },
+    "status": {
+      "pending": "Pending",
+      "running": "Running",
+      "paused": "Paused",
+      "accepted": "Target met",
+      "failed": "Ended",
+      "stopped": "Manually stopped",
+      "expired": "Expired"
+    },
+    "empty": {
+      "noData": "No data",
+      "noResults": "No matching results",
+      "noResultsHint": "Adjust search criteria",
+      "noDataHint": "Click Create in the top right to add a scheduled optimization task"
+    },
+    "confirm": {
+      "remove": "Remove this optimization task from the list? Scheduled execution will stop (data remains in database)."
+    },
+    "errors": {
+      "loadFailed": "Failed to load",
+      "deleteFailed": "Delete failed"
+    }
+  },
+  "optimizationBot": {
+    "pageTitle": "Optimization Tasks",
+    "subtitleDetail": "Same data as Quick Start · optimization records; click pipeline nodes to view outputs in-page.",
+    "cycleTasksTitle": "Cycle optimization tasks",
+    "createTitle": "New optimization task",
+    "actions": {
+      "back": "Back",
+      "create": "Create and start",
+      "creating": "Submitting…",
+      "runNow": "Run now",
+      "pause": "Pause",
+      "resume": "Resume",
+      "reset": "Reset last cycle",
+      "remove": "Remove from list"
+    },
+    "form": {
+      "brandName": "Brand name",
+      "brandNamePlaceholder": "Brand name",
+      "productLine": "Product line / model",
+      "productLinePlaceholder": "e.g. MacBook Air M4",
+      "keywords": "Core keywords",
+      "keywordPlaceholder": "Type and press Enter or click Add",
+      "taskExpiry": "Task expiry",
+      "pointsBudget": "Points budget per cycle",
+      "pointsBudgetPlaceholder": "Number"
+    },
+    "status": {
+      "pending": "Pending",
+      "running": "Running",
+      "paused": "Paused",
+      "accepted": "Target met",
+      "failed": "Ended",
+      "stopped": "Manually stopped",
+      "expired": "Expired",
+      "cycleRunning": "In progress",
+      "cycleCompleted": "Completed",
+      "cycleFailed": "Failed",
+      "stepSuccess": "Success",
+      "stepFailed": "Failed",
+      "stepSkipped": "Skipped"
+    },
+    "empty": {
+      "noData": "No data"
+    },
+    "confirm": {
+      "remove": "Remove this cycle task from the list? Scheduled execution will stop (data remains in database)."
+    },
+    "errors": {
+      "loadFailed": "Failed to load",
+      "removeFailed": "Remove failed",
+      "operationFailed": "Operation failed",
+      "requireBrand": "Please enter brand name",
+      "requireProduct": "Please enter product line / model",
+      "requireKeywords": "Please add at least one core keyword",
+      "requireExpiry": "Please set task expiry later than now",
+      "requireTemplate": "Please select article templates; multi-template / imitate / manual modes use the full form in GEO workbench.",
+      "requireBudget": "Points budget must be ≥10 and a multiple of 10",
+      "createFailed": "Failed to create"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Knowledge Base",
+  "subtitle": "Manage brand knowledge assets for retrieval and content generation",
+  "actions": {
+    "back": "Back",
+    "create": "New knowledge base",
+    "upload": "Upload document",
+    "uploading": "Uploading…",
+    "delete": "Delete",
+    "save": "Save",
+    "refresh": "Refresh",
+    "search": "Search",
+    "test": "Run retrieval test",
+    "testing": "Testing…"
+  },
+  "list": {
+    "title": "Knowledge bases",
+    "empty": "No knowledge bases yet",
+    "noDescription": "No description"
+  },
+  "tabs": {
+    "files": "Documents",
+    "rules": "Chunk rules",
+    "test": "Retrieval test"
+  },
+  "upload": {
+    "title": "Upload documents",
+    "hint": "Supported formats: PDF, Word, TXT, etc. Max 50MB per file",
+    "maxSizeError": "File size cannot exceed 50MB"
+  },
+  "form": {
+    "name": "Knowledge base name",
+    "namePlaceholder": "e.g. Product technical docs",
+    "description": "Description",
+    "descriptionPlaceholder": "Briefly describe the purpose of this knowledge base…",
+    "testQueryPlaceholder": "Enter a test query…",
+    "chunkSize": "Chunk size",
+    "chunkOverlap": "Overlap",
+    "separator": "Separator"
+  },
+  "status": {
+    "ready": "Ready",
+    "indexing": "Indexing",
+    "idle": "Idle",
+    "retrievalReady": "Retrieval ready",
+    "processing": "Processing index…",
+    "analyzed": "Vectorized",
+    "processingDoc": "Processing",
+    "error": "Error"
+  },
+  "empty": {
+    "noKnowledgeBases": "No knowledge bases yet. Create one to get started.",
+    "noDocuments": "No documents yet. Upload files to build your knowledge base.",
+    "noTestResults": "No retrieval results yet",
+    "workflowLimit": "Only one knowledge base is allowed per workflow for this account."
+  },
+  "confirm": {
+    "deleteKb": "Delete this knowledge base? This cannot be undone.",
+    "deleteDoc": "Delete this document?"
+  },
+  "errors": {
+    "loadFailed": "Failed to load knowledge bases",
+    "createFailed": "Failed to create knowledge base",
+    "deleteFailed": "Failed to delete knowledge base",
+    "uploadFailed": "Upload failed",
+    "deleteDocFailed": "Failed to delete document",
+    "testFailed": "Retrieval test failed"
+  }
+}

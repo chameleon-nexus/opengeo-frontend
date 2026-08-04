@@ -1,0 +1,1085 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * 企业集团页头 — 复刻参考站 http://www.eshyp.com/ 的 header 样式
+ * 白底固定 + Logo左浮 + 导航右浮 + hover 蓝色 + 下拉菜单
+ */
+@layer components {
+  .header {
+    z-index: 500;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-bottom: 28px;
+  }
+  .header-in {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .header .logo {
+    float: left;
+    margin-top: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .header .logo a { display: block; }
+  .header .logo img {
+    height: 62px;
+    width: auto;
+    object-fit: contain;
+  }
+  .header .nav {
+    float: right;
+    margin-top: 0;
+  }
+  .header .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .header .nav-list li {
+    float: left;
+    position: relative;
+  }
+  .header .nav-list li > a {
+    position: relative;
+    display: block;
+    padding: 0 24px;
+    height: 50px;
+    line-height: 50px;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s;
+    white-space: nowrap;
+    border-right: 1px solid #e0e0e0;
+  }
+  .header .nav-list li:last-child > a {
+    border-right: none;
+  }
+  .header .nav-list li > a:hover,
+  .header .nav-list li.active > a {
+    color: #008cd6;
+  }
+  .header .dropMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    min-width: 100%;
+    visibility: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: top 0.3s, visibility 0.3s;
+  }
+  .header .dropMenu li {
+    background: rgba(72, 176, 238, 0.85);
+  }
+  .header .dropMenu li + li {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  .header .dropMenu li a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 50px;
+    text-decoration: none;
+    transition: all 0.3s;
+    padding: 0 20px;
+  }
+  .header .dropMenu li a:hover {
+    background: #e4f0f8;
+    color: #48b0ee;
+  }
+  @media (max-width: 768px) {
+    .header .nav { display: none; }
+    .header .logo img { height: 32px; }
+    .header-in { padding: 0 16px; }
+  }
+}
+
+/*
+ * 企业集团页脚 — 复刻参考站 http://www.eshyp.com/ 的 footer 样式
+ * 深蓝背景 #001a3d，上下两行，12px 白色文字
+ */
+@layer components {
+  .footer {
+    background: #001a3d;
+  }
+  .foot-head {
+    padding: 30px 0;
+    color: #fff;
+    max-width: 1083px;
+    margin: auto;
+  }
+  .fo-d1 {
+    overflow: hidden;
+    border-bottom: #fff 1px solid;
+    padding: 0 30px 15px;
+  }
+  .fo-d1 .left {
+    float: left;
+    width: 70%;
+    color: #fff;
+  }
+  .fo-d1 .left h1 {
+    font-size: 12px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 13px;
+    font-weight: normal;
+  }
+  .fo-d1 .left p {
+    margin: 0;
+  }
+  .fo-d1 .left p,
+  .fo-d1 .left p a,
+  .fo-d1 .left span {
+    color: #fff;
+    line-height: 26px;
+    font-size: 12px;
+  }
+  .fo-d1 .left p a:hover {
+    text-decoration: underline;
+  }
+  .fo-d1-contact-row {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 26px;
+    color: #fff;
+  }
+  .fo-d1-contact-row .fo-d1-contact-item {
+    margin-right: 20px;
+  }
+  .fo-d1-contact-row .fo-d1-contact-item:last-child {
+    margin-right: 0;
+  }
+  .fo-d1 .right {
+    float: right;
+    width: 10%;
+  }
+  .fo-d1 .right p img {
+    width: 100%;
+  }
+  .fo-d1 .clear {
+    clear: both;
+  }
+  .fo-d2 {
+    text-align: left;
+    overflow: hidden;
+    padding: 15px 30px 0;
+    font-size: 12px;
+    line-height: 26px;
+    color: #fff;
+  }
+  /* 与 .fo-d1 .left 三行一致：12px / 行高 26px；首行与第二行间留白同 h1→p（13px） */
+  .fo-d2 p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .fo-d2-nav {
+    text-align: left;
+    margin-bottom: 13px;
+  }
+  .fo-d2-nav a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .fo-d2-nav a:hover {
+    text-decoration: underline;
+  }
+  .fo-d2-copyright {
+    text-align: left;
+    font-size: 12px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  .fo-d2-beian {
+    text-align: left;
+    font-size: 12px;
+    line-height: 26px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 2.75rem;
+    row-gap: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .fo-d2-beian a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .fo-d2-beian a:hover {
+    text-decoration: underline;
+  }
+  .fo-d2-police-link {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    vertical-align: middle;
+    gap: 4px;
+    font-size: 12px;
+    line-height: 26px;
+    min-height: 26px;
+  }
+  .fo-d2-police-icon {
+    display: block;
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+  }
+  @media (max-width: 768px) {
+    .fo-d1 .left { width: 100%; float: none; }
+    .fo-d1 .right { width: 80px; float: none; margin-top: 12px; }
+  }
+}
+
+/*
+ * Banner 轮播
+ */
+@layer components {
+  .corp-hero {
+    position: relative;
+    width: 100%;
+    height: 680px;
+    margin-top: 10px;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .corp-hero-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+    pointer-events: none;
+  }
+  .corp-hero-slide.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .corp-hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    pointer-events: none;
+  }
+  @media (max-width: 768px) {
+    .corp-hero { height: 280px; }
+  }
+  .corp-hero-mask {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+  }
+  .corp-hero-dots {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    display: flex;
+    gap: 10px;
+  }
+  .corp-hero-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.4);
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  .corp-hero-dot.active {
+    background: #fff;
+    transform: scale(1.2);
+  }
+  .corp-hero-dot:hover {
+    background: rgba(255,255,255,0.8);
+  }
+}
+
+/*
+ * 集团介绍 — 复刻参考站 http://www.eshyp.com/ 的 home-link 网格布局
+ * 深色背景，5 个浮动块（1 标题 + 4 内容），hover 蓝色 + 蓝色边框动画
+ */
+@layer components {
+  .home-link { overflow: hidden; }
+  .home-link-item {
+    float: left;
+    position: relative;
+    height: 226px;
+    color: #fff;
+    overflow: hidden;
+  }
+  .home-link-item a {
+    display: block;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+  }
+  .home-link-item .img { position: relative; overflow: hidden; height: 226px; }
+  .home-link-item .img-in {
+    height: 226px;
+    background: no-repeat center;
+    background-size: cover;
+  }
+  .home-link-item .line {
+    position: absolute;
+    z-index: 10;
+    background: #2b9eff;
+  }
+
+  /* --- 蓝色边框动画伪元素 --- */
+  .home-link-item .img::before,
+  .home-link-item .img::after {
+    content: '';
+    position: absolute;
+    z-index: 10;
+    background: #2b9eff;
+    transition: all ease 0.4s;
+  }
+
+  /* 块2：水平边框 */
+  .home-link-item-2 .img::before,
+  .home-link-item-2 .img::after {
+    width: 0; height: 5px;
+  }
+  .home-link-item-2 .img::before { top: 0; left: 50%; transform: translate(-50%,0); }
+  .home-link-item-2 .img::after  { bottom: 0; left: 50%; transform: translate(-50%,0); }
+  .home-link-item-2 .line {
+    width: 5px; height: 0;
+    top: 50%; right: 0;
+    transform: translate(0,-50%);
+  }
+  .home-link-item-2:hover .img::before,
+  .home-link-item-2:hover .img::after { width: 100%; }
+  .home-link-item-2:hover .line { height: 100%; }
+
+  /* 块3/4/5：竖直边框 */
+  .home-link-item-3 .img::before, .home-link-item-3 .img::after,
+  .home-link-item-4 .img::before, .home-link-item-4 .img::after,
+  .home-link-item-5 .img::before, .home-link-item-5 .img::after {
+    height: 0; width: 5px;
+  }
+  .home-link-item-3 .img::before, .home-link-item-4 .img::before,
+  .home-link-item-5 .img::before { left: 0; top: 50%; transform: translate(0,-50%); }
+  .home-link-item-3 .img::after, .home-link-item-4 .img::after,
+  .home-link-item-5 .img::after  { right: 0; top: 50%; transform: translate(0,-50%); }
+  .home-link-item-3 .line, .home-link-item-5 .line {
+    width: 0; height: 5px; bottom: 0; left: 50%; transform: translate(-50%,0);
+  }
+  .home-link-item-4 .line {
+    width: 0; height: 5px; top: 0; left: 50%; transform: translate(-50%,0);
+  }
+  .home-link-item-3:hover .img::before, .home-link-item-3:hover .img::after,
+  .home-link-item-4:hover .img::before, .home-link-item-4:hover .img::after,
+  .home-link-item-5:hover .img::before, .home-link-item-5:hover .img::after { height: 100%; }
+  .home-link-item-3:hover .line,
+  .home-link-item-4:hover .line,
+  .home-link-item-5:hover .line { width: 100%; }
+
+  /* --- 文字样式 --- */
+  .home-link-item .name {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+  }
+  .home-link-item .name span { color: #fff; font-size: 16px; text-transform: uppercase; }
+  .home-link-item .name span span { color: #008cd6; margin-left: 1px; }
+  .home-link-item p {
+    margin-bottom: 35px;
+    opacity: 0.5;
+    line-height: 24px;
+    font-size: 14px;
+  }
+  .home-link-item:hover .name span span { color: #fff; }
+  .home-link .more {
+    display: none;
+  }
+
+  /* --- 统一过渡动画 --- */
+  .home-link-item,
+  .home-link-item .name,
+  .home-link-item p,
+  .home-link-item .img,
+  .home-link-item .img-in,
+  .home-link-item .line {
+    transition: all ease 0.4s;
+  }
+
+  /* --- hover 通用效果 --- */
+  .home-link-item-2:hover, .home-link-item-3:hover,
+  .home-link-item-4:hover, .home-link-item-5:hover { background: #2b9eff; }
+  .home-link-item:hover .img-in { transform: scale(1.08); }
+  .home-link-item:hover .name,
+  .home-link-item:hover p {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+
+  /* --- 块1：标题块（深色，hover 无位移） --- */
+  .home-link-item-1 {
+    padding: 65px 50px 0;
+    width: 31.25%;
+    background: url('/imgs/home-link-1.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-link-item-1 .name {
+    margin-bottom: 12px;
+    font-size: 28px;
+    font-family: arial, sans-serif;
+  }
+  .home-link-item-1 em {
+    display: block;
+    margin-bottom: 15px;
+    width: 46%;
+    height: 2px;
+    background: #2b9eff;
+  }
+  .home-link-item-1 p { font-size: 24px; opacity: 1; }
+  .home-link-item-1:hover {
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: darken;
+  }
+  .home-link-item-1:hover .name,
+  .home-link-item-1:hover p { transform: translateY(0); }
+  .home-link-item-1:hover p { opacity: 0.5; }
+
+  /* --- 块2：公司简介（右图左文） --- */
+  .home-link-item-2 { width: 68.75%; background: #1d1d1d; }
+  .home-link-item-2 .img { float: right; width: 45.45454%; height: 226px; }
+  .home-link-item-2 .img-in { height: 226px; }
+  .home-link-item-2 .con { padding: 45px 50px 0; margin-right: 45.45454%; }
+
+  /* --- 块3：子板块（文上图下，高452px） --- */
+  .home-link-item-3 { height: 452px; width: 31.25%; background: #1d1d1d; }
+  .home-link-item-3 .con { padding: 50px 40px 0; height: 226px; }
+  .home-link-item-3 .img-in { height: 226px; }
+
+  /* --- 块4：子板块（图上文下，高452px） --- */
+  .home-link-item-4 { height: 452px; width: 37.5%; background: #202020; }
+  .home-link-item-4 .con { padding: 50px 40px 0; height: 226px; }
+  .home-link-item-4 .img-in { height: 226px; }
+
+  /* --- 块5：子板块（文上图下，高452px） --- */
+  .home-link-item-5 { height: 452px; width: 31.25%; background: #1d1d1d; }
+  .home-link-item-5 .con { padding: 50px 40px 0; height: 226px; }
+  .home-link-item-5 .img-in { height: 226px; }
+
+  /* --- 响应式 --- */
+  @media (max-width: 1440px) {
+    .home-link-item-1 { padding: 50px 30px 0; }
+    .home-link-item-2 .con { padding: 35px 30px 0; }
+    .home-link-item-3 .con,
+    .home-link-item-4 .con,
+    .home-link-item-5 .con { padding: 30px 25px 0; }
+  }
+  @media (max-width: 768px) {
+    .home-link-item {
+      float: none;
+      width: 100% !important;
+      height: auto !important;
+    }
+    .home-link-item-1 { padding: 40px 20px; height: auto !important; }
+    .home-link-item-1 .name { font-size: 22px; }
+    .home-link-item-1 p { font-size: 18px; }
+    .home-link-item-2 .img { float: none; width: 100%; }
+    .home-link-item-2 .con { margin-right: 0; padding: 30px 20px; }
+    .home-link-item-3, .home-link-item-4, .home-link-item-5 { height: auto !important; }
+    .home-link-item-3 .con, .home-link-item-4 .con, .home-link-item-5 .con {
+      height: auto; padding: 30px 20px;
+    }
+    .home-link-item .img { height: 180px; }
+    .home-link-item .img-in { height: 180px; }
+  }
+}
+
+/*
+ * 新闻资讯 — 复刻参考站 http://www.eshyp.com/ 的 home-dynamic 样式
+ * 两列卡片，蓝色日期标签，hover 蓝色覆盖
+ */
+@layer components {
+  .home-dynamic {
+    padding: 75px 0 83px;
+    background: #f8fafc;
+  }
+  .home-dynamic .home-head { text-align: center; }
+  .home-dynamic .home-head .tab { display: inline-block; cursor: pointer; margin: 0 15px; }
+  .home-dynamic .home-head .tab .title,
+  .home-dynamic .home-head .tab .subtitle { color: #b0b0b0; transition: color 0.3s; }
+  .home-dynamic .home-head .tab.active .title,
+  .home-dynamic .home-head .tab.active .subtitle { color: #535353; }
+  .home-dynamic .home-head .tab.active .subtitle { font-size: 24px; }
+  .home-dynamic .tabcon { display: none; }
+  .home-dynamic .tabcon.active { display: block; }
+
+  .home-dynamic-body {
+    padding-top: 65px;
+    overflow: hidden;
+  }
+  .home-dynamic-list {
+    overflow: hidden;
+    padding: 20px 7px 58px;
+    max-width: 1200px;
+    margin: auto;
+    list-style: none;
+  }
+  .home-dynamic-list li {
+    float: left;
+    padding: 0 8px;
+    width: 50%;
+    margin-bottom: 35px;
+    list-style: none;
+  }
+  .home-dynamic-list li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  .home-dynamic-item {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 0 7px rgba(0,0,0,0.3);
+  }
+  .home-dynamic-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #48b0ee;
+    transition: all ease 1s;
+    opacity: 0;
+  }
+  .home-dynamic-item-in {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    color: #999;
+    font-size: 14px;
+    overflow: hidden;
+  }
+  .home-dynamic-item .date {
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    padding: 25px 10px 25px;
+    width: 101px;
+    font-size: 28px;
+    color: #fff;
+    text-align: right;
+    background-color: rgba(72, 176, 238, 0.9);
+    z-index: 3;
+    line-height: 1;
+  }
+  .home-dynamic-item .date p {
+    font-size: 18px;
+    color: #fff;
+    margin: 8px 0 0;
+  }
+  .home-dynamic-item-in .cover {
+    margin: 0;
+    overflow: hidden;
+  }
+  .home-dynamic-item-in .cover img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s;
+  }
+  .home-dynamic-item:hover .cover img {
+    transform: scale(1.05);
+  }
+  .home-dynamic-item .name {
+    overflow: hidden;
+    padding-top: 8px;
+  }
+  .home-dynamic-item .name p {
+    font-size: 14px;
+    color: #535353;
+    float: left;
+    margin-top: 12px;
+  }
+  .home-dynamic-item .name .n1 {
+    width: auto;
+    line-height: 24px;
+    border: #48afed 1px solid;
+    color: #48afed;
+    padding: 0 8px;
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+    margin-top: 12px;
+  }
+  .home-dynamic-item .name .n2 {
+    margin: 12px 15px 0;
+    line-height: 26px;
+    width: 100%;
+    float: left;
+  }
+  .home-dynamic-item .name .n2 a {
+    color: #535353;
+  }
+  .home-dynamic-item .name .n3 {
+    float: right;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .home-dynamic-item .name .n3 span {
+    margin-right: 6px;
+    display: inline-block;
+    width: 24px;
+    height: 10px;
+    background: linear-gradient(90deg, #48afed 50%, transparent 50%);
+    background-size: 8px 2px;
+    background-repeat: repeat-x;
+    background-position: left center;
+  }
+  .home-dynamic-item .name .n3,
+  .home-dynamic-item .name .n3 a {
+    color: #48afed;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  .home-dynamic-item:hover::before { opacity: 1; }
+  .home-dynamic-item:hover .date {
+    color: #fff;
+    background-color: rgba(83, 83, 83, 0.9);
+  }
+  .home-dynamic-item:hover .n1 {
+    background: #fff;
+    color: #48b0ee;
+  }
+  .home-dynamic-item:hover .n2,
+  .home-dynamic-item:hover .n2 a,
+  .home-dynamic-item:hover .n2 span {
+    color: #fff;
+  }
+  .home-dynamic-item:hover .name .n3,
+  .home-dynamic-item:hover .name .n3 a {
+    color: #fff;
+  }
+  .home-dynamic-item:hover .name .n3 span {
+    background: linear-gradient(90deg, #fff 50%, transparent 50%);
+    background-size: 8px 2px;
+    background-repeat: repeat-x;
+    background-position: left center;
+  }
+  .home-dynamic-item:hover .name { color: #fff; }
+  .home-dynamic-item:hover .name p { color: #fff; }
+
+  .home-dynamic-list li:nth-child(2) { transition-delay: 0.2s; }
+  .home-dynamic-list li:nth-child(3) { transition-delay: 0.4s; }
+  .home-dynamic-list li:nth-child(4) { transition-delay: 0.6s; }
+
+  @media (max-width: 768px) {
+    .home-dynamic { padding: 40px 0 50px; }
+    .home-dynamic-body { padding-top: 30px; }
+    .home-dynamic-list li { width: 100%; float: none; padding: 0; margin-bottom: 25px; }
+    .home-dynamic-item .date { width: 70px; font-size: 20px; padding: 15px 8px; }
+  }
+}
+
+/*
+ * 业务能力 — 复刻参考站 http://www.eshyp.com/ 的 home-intro 样式
+ * 无卡片，蓝色文字 #008CD6，圆形图标，hover 文字上移+图标动画
+ */
+@layer components {
+  .home-intro {
+    padding: 45px 0 0;
+    background: linear-gradient(135deg, rgba(0,140,214,0.04) 0%, transparent 40%);
+  }
+  .home-intro1 {
+    background: linear-gradient(315deg, rgba(0,140,214,0.04) 0%, transparent 40%);
+    padding: 0 0 45px;
+  }
+  .inner-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .home-intro-list {
+    margin: 0 -30px;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+  }
+  .home-intro-list li {
+    float: left;
+    padding: 0 30px;
+    width: 33.333%;
+    color: #000;
+    text-align: center;
+    line-height: 24px;
+  }
+  .home-intro-item .img {
+    position: relative;
+    width: 114px;
+    height: 114px;
+    margin: 0 auto;
+    border-radius: 100%;
+  }
+  .home-intro-item .img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+  }
+  .home-intro-item .img .bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 2px solid rgba(0,140,214,0.3);
+    transition: all ease 0.4s;
+  }
+  .home-intro-item .img img,
+  .home-intro-item .img svg {
+    position: relative;
+    z-index: 3;
+    display: block;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 70%;
+    max-height: 70%;
+  }
+  .home-intro-item .name {
+    margin: 15px 0 15px;
+    font-size: 21px;
+    color: #008CD6;
+    transition: all ease 0.4s;
+  }
+  .home-intro-item .des {
+    text-align: center;
+    color: #008CD6;
+    font-size: 14px;
+    line-height: 1.8;
+    transition: all ease 0.4s;
+  }
+  .home-intro-item:hover .bg {
+    animation: home-intro-rotate 4s ease-in infinite;
+    border-color: #008CD6;
+    background: rgba(0,140,214,0.08);
+  }
+  .home-intro-item:hover .name,
+  .home-intro-item:hover .des {
+    color: #006ba6;
+  }
+  .home-intro-list li:nth-child(1) .home-intro-item:hover .img img,
+  .home-intro-list li:nth-child(1) .home-intro-item:hover .img svg {
+    animation: home-intro-tada 4s ease-in-out infinite;
+  }
+  .home-intro-list li:nth-child(2) .home-intro-item:hover .img img,
+  .home-intro-list li:nth-child(2) .home-intro-item:hover .img svg {
+    animation: home-intro-flip 4s ease-in-out infinite;
+  }
+  .home-intro-list li:nth-child(3) .home-intro-item:hover .img img,
+  .home-intro-list li:nth-child(3) .home-intro-item:hover .img svg {
+    animation: home-intro-pulse 4s ease-in-out infinite;
+  }
+  .home-intro-list li:nth-child(4) .home-intro-item:hover .img img,
+  .home-intro-list li:nth-child(4) .home-intro-item:hover .img svg {
+    animation: home-intro-swing 4s ease-in-out infinite;
+  }
+
+  .home-intro-list li:nth-child(2) { transition-delay: 0.2s; }
+  .home-intro-list li:nth-child(3) { transition-delay: 0.4s; }
+  .home-intro-list li:nth-child(4) { transition-delay: 0.6s; }
+
+  @keyframes home-intro-rotate {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  @keyframes home-intro-tada {
+    0%, 89%, 100% { transform: translateY(-50%) scale(1); }
+    10%, 20% { transform: translateY(-50%) scale(0.9) rotate(-3deg); }
+    30%, 50%, 70% { transform: translateY(-50%) scale(1.1) rotate(3deg); }
+    40%, 60%, 80% { transform: translateY(-50%) scale(1.1) rotate(-3deg); }
+  }
+  @keyframes home-intro-flip {
+    0%, 89%, 100% { transform: translateY(-50%) perspective(400px) rotate3d(1,0,0,0deg); }
+    40% { transform: translateY(-50%) perspective(400px) rotate3d(1,0,0,20deg); }
+    60% { transform: translateY(-50%) perspective(400px) rotate3d(1,0,0,-10deg); }
+    80% { transform: translateY(-50%) perspective(400px) rotate3d(1,0,0,5deg); }
+  }
+  @keyframes home-intro-pulse {
+    0%, 89%, 100% { transform: translateY(-50%) scale(1); }
+    50% { transform: translateY(-50%) scale(1.15); }
+  }
+  @keyframes home-intro-swing {
+    0%, 89%, 100% { transform: translateY(-50%) rotate(0deg); }
+    20% { transform: translateY(-50%) rotate(15deg); }
+    40% { transform: translateY(-50%) rotate(-10deg); }
+    60% { transform: translateY(-50%) rotate(5deg); }
+    80% { transform: translateY(-50%) rotate(-5deg); }
+  }
+
+  @media (max-width: 768px) {
+    .home-intro-list { margin: 0 -15px; }
+    .home-intro-list li { padding: 0 15px; width: 100%; margin-bottom: 30px; }
+  }
+}
+
+/*
+ * 联系表单 — 左右布局 + 滑入动画，深色表单区域
+ */
+@layer components {
+  .corp-contact-section {
+    padding: 80px 0;
+    background: #f8fafc;
+  }
+  .corp-contact-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  .corp-contact-left {
+    flex: 0 0 auto;
+    max-width: 340px;
+  }
+  .corp-contact-heading {
+    font-size: 32px;
+    line-height: 1.5;
+    color: #1e293b;
+    font-weight: 700;
+    margin: 0 0 24px;
+  }
+  .corp-contact-info {
+    font-size: 14px;
+    color: #64748b;
+    margin: 0 0 8px;
+    line-height: 1.6;
+  }
+  .corp-contact-right {
+    flex: 1;
+  }
+  .corp-contact-form {
+    background: #f8fafc;
+    border-radius: 8px;
+    padding: 40px;
+    border: 1px solid #e2e8f0;
+  }
+  .corp-form-row {
+    display: flex;
+    gap: 16px;
+  }
+  .corp-form-row .corp-form-group { flex: 1; }
+  .corp-form-group {
+    margin-bottom: 20px;
+  }
+  .corp-form-group label {
+    display: block;
+    font-size: 14px;
+    color: #334155;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  .corp-required { color: #ef4444; }
+  .corp-form-group input,
+  .corp-form-group textarea {
+    width: 100%;
+    padding: 10px 14px;
+    background: #fff;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    color: #1e293b;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+  }
+  .corp-form-group input::placeholder,
+  .corp-form-group textarea::placeholder {
+    color: #94a3b8;
+  }
+  .corp-form-group input:focus,
+  .corp-form-group textarea:focus {
+    border-color: #2b9eff;
+  }
+  .corp-form-group textarea {
+    resize: none;
+  }
+  .corp-form-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 8px;
+  }
+  .corp-form-actions button {
+    padding: 12px 36px;
+    background: #2b9eff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.15s;
+  }
+  .corp-form-actions button:hover {
+    background: #1a8ae6;
+  }
+  .corp-form-actions button:active {
+    transform: scale(0.97);
+  }
+  .corp-contact-msg { font-size: 13px; }
+  .corp-msg-ok { color: #16a34a; }
+  .corp-msg-err { color: #dc2626; }
+
+  /* 滑入动画 */
+  .corp-slide-left {
+    opacity: 0;
+    transform: translateX(-60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  .corp-slide-right {
+    opacity: 0;
+    transform: translateX(60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    transition-delay: 0.15s;
+  }
+  .corp-slide-left.slid-in,
+  .corp-slide-right.slid-in {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  @media (max-width: 768px) {
+    .corp-contact-section { padding: 50px 0; }
+    .corp-contact-wrap { flex-direction: column; gap: 30px; }
+    .corp-contact-left { max-width: 100%; text-align: center; }
+    .corp-contact-heading { font-size: 24px; }
+    .corp-contact-form { padding: 24px; }
+    .corp-form-row { flex-direction: column; gap: 0; }
+  }
+}
+
+/*
+ * Logo 墙 — 严格复刻参考站 http://www.eshyp.com/ 的 home-kh / dglo 样式
+ * 核心：float:left; width:19%; margin:0.5% → 每行 5 个
+ * hover：scale(1.2) 放大，无灰度
+ * .aieo-logo-wall 为其它模板（default / tech）的别名容器，共用同一规则
+ */
+@layer components {
+  /* ---------- 标题区 ---------- */
+  .home-head { text-align: center; }
+  .home-head .title {
+    margin: 25px 0 10px;
+    font-size: 28px;
+    color: #535353;
+  }
+  .home-head .title span { color: #008cd6; display: inline; }
+  .home-head .subtitle { color: #b0b0b0; }
+  .home-head .tab { display: inline-block; cursor: pointer; }
+  .home-head .tab.active .title,
+  .home-head .tab.active .subtitle { color: #535353; }
+  .home-head .tab.active .subtitle { font-size: 24px; }
+
+  /* ---------- Logo 网格（float 版，与参考站一致） ---------- */
+  .home-kh .dglo,
+  .aieo-logo-wall {
+    padding: 30px 0 58px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .home-kh .dglo ul,
+  .aieo-logo-wall ul {
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .home-kh .dglo ul li,
+  .aieo-logo-wall ul li {
+    float: left;
+    width: 19%;
+    margin: 0.5%;
+    list-style: none;
+  }
+  .home-kh .dglo ul li a,
+  .aieo-logo-wall ul li a {
+    display: block;
+    text-decoration: none;
+  }
+  .home-kh .dglo ul li img,
+  .aieo-logo-wall ul li img {
+    width: 100%;
+    height: 121px;
+    object-fit: contain;
+    transition: all 0.6s;
+  }
+  .home-kh .dglo ul li a:hover img,
+  .aieo-logo-wall ul li a:hover img {
+    transform: scale(1.2);
+  }
+
+  /* ---------- 暗色主题（default dark / tech 模板） ---------- */
+  .aieo-logo-wall--dark {
+    background: transparent;
+  }
+  .aieo-logo-wall--dark ul li a img {
+    filter: grayscale(100%) brightness(0.8);
+    opacity: 0.6;
+  }
+  .aieo-logo-wall--dark ul li a:hover img {
+    filter: grayscale(0%) brightness(1);
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  /* ---------- 移动端 ≤768px：改为一行 3 个 ---------- */
+  @media (max-width: 768px) {
+    .home-kh .dglo ul li,
+    .aieo-logo-wall ul li {
+      width: 31.33%;
+      margin: 1%;
+    }
+  }
+  /* ≤480px：一行 2 个 */
+  @media (max-width: 480px) {
+    .home-kh .dglo ul li,
+    .aieo-logo-wall ul li {
+      width: 48%;
+      margin: 1%;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Automation Deploy Guide",
+  "subtitle": "Set up QClaw and mass-publish assistant for domestic social publishing",
+  "actions": {
+    "back": "Back",
+    "createKey": "Create Lobster API key",
+    "recreateKey": "Regenerate key",
+    "creatingKey": "Creating…",
+    "copy": "Copy",
+    "copyToQClaw": "Copy to send in QClaw"
+  },
+  "sections": {
+    "step1": {
+      "title": "Download mass-publish assistant",
+      "description": "Download the desktop mass-publish tool"
+    },
+    "step2": {
+      "title": "Install mass-publish assistant",
+      "description": "Install and launch the assistant on your machine"
+    },
+    "step3": {
+      "title": "Download and install QClaw",
+      "description": "Install QClaw for automated export and publishing"
+    },
+    "step4": {
+      "title": "Install skill",
+      "description": "Install the geo-mass-publish-check skill in QClaw"
+    },
+    "step5": {
+      "title": "Create Lobster API key",
+      "description": "Generate an API key and paste it into QClaw"
+    },
+    "step6": {
+      "title": "Configure scheduled task (every 6 hours)",
+      "description": "Set up a cron job to run the publish check automatically"
+    }
+  },
+  "form": {
+    "cronCommandLabel": "Scheduled task command"
+  },
+  "errors": {
+    "createKeyFailed": "Failed to create API key"
+  },
+  "deployGuide": {
+    "backToOptimization": "Back to Smart Optimization",
+    "pageTitle": "Smart Optimization Deploy Guide",
+    "subtitle": "This page focuses on installing the",
+    "subtitleMassPublish": "mass-publish assistant (Rongmeibao)",
+    "subtitleRest": "Download articles and batch-publish to domestic social accounts. QClaw below is optional for scheduled ZIP export and pending publish reminders.",
+    "downloadPackageHint": "Download package",
+    "downloadMassPublish": "Download mass-publish assistant",
+    "installSteps1": "Extract the installer and complete setup",
+    "installSteps2": "If SmartScreen blocks, choose Run anyway",
+    "installSteps3": "Open Rongmeibao and sign in to social accounts to publish",
+    "installNote": "After content is ready, export ZIP from Smart Optimization workbench or download Word from Content Generation, then batch import in Rongmeibao.",
+    "qclawOptional": "QClaw (optional)",
+    "qclawOptionalHint": "Configure only if you need automatic export every 6 hours and pending publish reminders; skip if you export manually.",
+    "qclawInstallHint": "Install QClaw on Windows and",
+    "qclawKeepRunning": "keep it running",
+    "qclawInstallRest": "(scheduled tasks require the machine online).",
+    "openQclawDownload": "Open QClaw download page",
+    "installSkillHint": "Run in the QClaw built-in terminal:",
+    "installSkillForce": "If blocked, append",
+    "createKeyHint": "After creating, copy the full sentence to QClaw and save locally for the skill.",
+    "keyPlaintextOnce": "Plaintext shown once only. Copy immediately.",
+    "cronHint": "With QClaw running, send the command below to create a task every 6 hours.",
+    "doneBack": "Deployment complete — back to Smart Optimization",
+    "keyName": "QClaw automation"
+  }
+}

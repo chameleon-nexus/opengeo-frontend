@@ -1,0 +1,26 @@
+{
+  "title": "Settings",
+  "general": "General Settings",
+  "keys": "API Keys",
+  "keysSubtitle": "Configure your AI model access credentials",
+  "account": "Account Management",
+  "roles": "Role Management",
+  "saveSuccess": "Saved successfully",
+  "saveFailed": "Save failed",
+  "generalSettingsPage": {
+    "pageTitle": "General Settings",
+    "subtitle": "System-wide configuration affecting global behavior",
+    "loading": "Loading…",
+    "mockSectionTitle": "Data display mock toggles",
+    "mockSectionHint": "Mock applies to show role only; admin, agent, etc. always see real data.",
+    "dataScreenMock": "Use mock data for analysis detail",
+    "dataScreenMockOn": "Showing demo data",
+    "dataScreenMockOff": "Showing real monitoring data",
+    "diagnosisMock": "Use mock data for diagnosis reports",
+    "diagnosisMockOn": "Showing demo data (sneakers/HOKA)",
+    "diagnosisMockOff": "Showing real analysis data",
+    "saving": "Saving…",
+    "saved": "Saved",
+    "save": "Save settings"
+  }
+}

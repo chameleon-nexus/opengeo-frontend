@@ -1,0 +1,70 @@
+{
+  "pageTitle": "自动化部署指南",
+  "subtitle": "配置 QClaw 与群发助手，实现国内自媒体协同发布",
+  "actions": {
+    "back": "返回",
+    "createKey": "创建龙虾密钥",
+    "recreateKey": "重新创建密钥",
+    "creatingKey": "创建中…",
+    "copy": "复制",
+    "copyToQClaw": "复制到 QClaw 发送"
+  },
+  "sections": {
+    "step1": {
+      "title": "下载群发助手",
+      "description": "下载桌面端群发助手工具"
+    },
+    "step2": {
+      "title": "安装群发助手",
+      "description": "在本机安装并启动群发助手"
+    },
+    "step3": {
+      "title": "下载并安装 QClaw",
+      "description": "安装 QClaw 以实现自动导出与发布"
+    },
+    "step4": {
+      "title": "安装 skill",
+      "description": "在 QClaw 中安装 geo-mass-publish-check skill"
+    },
+    "step5": {
+      "title": "创建龙虾密钥",
+      "description": "生成 API 密钥并粘贴到 QClaw"
+    },
+    "step6": {
+      "title": "配置定时任务（每 6 小时）",
+      "description": "配置定时任务自动执行发布检查"
+    }
+  },
+  "form": {
+    "cronCommandLabel": "定时任务指令"
+  },
+  "errors": {
+    "createKeyFailed": "创建密钥失败"
+  },
+  "deployGuide": {
+    "backToOptimization": "返回智能优化",
+    "pageTitle": "智能优化自动化部署指南",
+    "subtitle": "本页以",
+    "subtitleMassPublish": "群发助手（融媒宝）",
+    "subtitleRest": "安装为主：下载稿件后在本机批量发布到国内自媒体。下方 QClaw 为可选辅助，用于定时导出 ZIP 与待群发提醒。",
+    "downloadPackageHint": "下载压缩包",
+    "downloadMassPublish": "下载群发助手",
+    "installSteps1": "解压安装包，按向导完成安装",
+    "installSteps2": "若 SmartScreen 拦截，选择「仍要运行」",
+    "installSteps3": "打开融媒宝，登录要发布的自媒体账号",
+    "installNote": "成稿后可在智能优化工作台导出 ZIP，或在「内容生成」下载 Word，再在融媒宝中批量导入发布。",
+    "qclawOptional": "QClaw（可选）",
+    "qclawOptionalHint": "需要每 6 小时自动导出范文/仿写 ZIP 并提醒待群发时再配置；仅用手动导出可跳过本节。",
+    "qclawInstallHint": "在 Windows 电脑安装 QClaw，安装后",
+    "qclawKeepRunning": "保持运行",
+    "qclawInstallRest": "（定时任务依赖本机在线）。",
+    "openQclawDownload": "打开 QClaw 官网下载",
+    "installSkillHint": "在 QClaw 内置终端执行：",
+    "installSkillForce": "若安装被拦截，可在命令末尾加",
+    "createKeyHint": "创建后复制整句到 QClaw 发送，保存到本机供 skill 读取。",
+    "keyPlaintextOnce": "明文仅显示一次，请立即复制。",
+    "cronHint": "电脑端启动 QClaw 后，在对话中发送下方指令，创建每 6 小时执行一次的定时任务。",
+    "doneBack": "已完成部署，返回智能优化",
+    "keyName": "QClaw 自动化"
+  }
+}

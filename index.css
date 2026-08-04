@@ -1,0 +1,130 @@
+@import '@fontsource/inter/300.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+@import '@fontsource/noto-sans-sc/300.css';
+@import '@fontsource/noto-sans-sc/400.css';
+@import '@fontsource/noto-sans-sc/500.css';
+@import '@fontsource/noto-sans-sc/600.css';
+@import '@fontsource/noto-sans-sc/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 主操作按钮：统一使用 Tailwind `bg-gradient-coral` + `shadow-coral`（见 tailwind.config.js），与「快速开始」珊瑚渐变一致 */
+
+/* 核心规范：去斜体 */
+* {
+  font-style: normal !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #F5F5F7;
+  font-family: 'Noto Sans SC', 'Inter', system-ui, sans-serif;
+}
+
+html[lang^="en"] body {
+  font-family: 'Inter', 'Noto Sans SC', system-ui, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* 平滑动效 */
+.hover-scale {
+  transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.hover-scale:active {
+  transform: scale(0.98);
+}
+
+/* 呼吸效果 */
+@keyframes breathe {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(0.95); }
+}
+.animate-breathe {
+  animation: breathe 3s ease-in-out infinite;
+}
+
+/* 淡入动画 */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+}
+
+/* 慢速旋转 */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 3s linear infinite;
+}
+
+/* Logo 走马灯 */
+@keyframes logo-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.logo-marquee {
+  animation: logo-marquee 30s linear infinite;
+}
+
+/*
+ * 珊瑚主按钮兜底：避免 Tailwind JIT 漏扫、缓存旧 CSS 或仅含 background-image 时
+ * 出现「无珊瑚底、白字贴在浅灰底上」几乎不可见的问题。
+ * 与 tailwind.config.js 中 backgroundImage.gradient-coral / boxShadow.coral 保持一致。
+ */
+.bg-gradient-coral {
+  background-color: #E8553F;
+  background-image: linear-gradient(to right, #E8553F, #FF9B85);
+}
+.shadow-coral {
+  box-shadow: 0 4px 14px -2px rgba(232, 85, 63, 0.28);
+}
+button.bg-gradient-coral,
+a.bg-gradient-coral {
+  color: #ffffff;
+}
+
+/* 与知识图谱「新建知识图谱」一致：px-5 py-2.5 rounded-2xl font-semibold text-sm + 珊瑚渐变 */
+@layer components {
+  .btn-geo-primary {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-2xl font-semibold text-sm text-white shadow-sm bg-gradient-coral shadow-coral hover:opacity-95 disabled:opacity-50 disabled:cursor-not-allowed transition-opacity;
+  }
+  .btn-geo-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-2xl font-semibold text-sm border transition-colors bg-white border-slate-200 text-slate-600 hover:bg-slate-50 disabled:opacity-50 disabled:pointer-events-none disabled:cursor-not-allowed dark:bg-zinc-800 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-700;
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "hero": {
+    "title": "<span class=\"text-blue-600\">GEO</span><span class=\"text-slate-400 mx-1\">+</span><span class=\"text-slate-900\">Omnichannel Search</span>",
+    "highlight_text": "珊瑚GEO",
+    "description": "Covering AI and content platforms. Coral GEO helps brands improve visibility across GEO and omnichannel search with data-driven strategy.",
+    "subtitle": "",
+    "announcement": {
+      "label": "Updates",
+      "title": "Brand monitoring · Semantic SEO · Analytics",
+      "url": "/pricing"
+    },
+    "tip": "Major AI and content platform search scenarios",
+    "input_placeholder": "Enter brand or keyword…",
+    "input_button_text": "Free consultation",
+    "buttons": [
+      {
+        "title": "Contact us",
+        "icon": "RiFlashlightFill",
+        "url": "/pricing",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "View pricing",
+        "icon": "RiPlayCircleLine",
+        "url": "/pricing",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "show_happy_users": true,
+    "show_badge": false
+  },
+  "product_showcase": {
+    "title": "Dual-engine growth: GEO × Omnichannel Search",
+    "features": [
+      {
+        "title": "GEO · AI 对话可见性",
+        "description": "面向豆包、DeepSeek、通义、元宝等生成式场景，提升品牌在 AI 回答中的提及与引用机会，抢占对话式搜索新流量。",
+        "image": "/imgs/features/1.png",
+        "imageAlt": "GEO"
+      },
+      {
+        "title": "语义 SEO 与内容结构",
+        "description": "围绕用户真实提问与语义意图组织内容，强化实体、主题与权威信源，让 AI 与搜索引擎更易理解与推荐您的品牌。",
+        "image": "/imgs/features/2.png",
+        "imageAlt": "语义SEO"
+      },
+      {
+        "title": "监测 · 诊断 · 报告",
+        "description": "持续追踪可见度、竞品差距与平台差异，输出可落地的诊断结论与优化优先级，而不是一次性榜单。",
+        "image": "/imgs/features/3.png",
+        "imageAlt": "监测"
+      },
+      {
+        "title": "内容平台搜索优化",
+        "description": "针对短视频、图文社区等内容平台内的搜索与推荐路径，优化关键词布局与内容覆盖，获取主动搜索流量。",
+        "image": "/imgs/features/4.png",
+        "imageAlt": "内容平台"
+      },
+      {
+        "title": "选题与关键词资产",
+        "description": "沉淀高意图问题库、长尾词与场景化选题，支撑内容生产与投放节奏，避免盲目追热点。",
+        "image": "/imgs/features/5.png",
+        "imageAlt": "关键词"
+      },
+      {
+        "title": "数据看板与复盘",
+        "description": "将曝光、提及、排名与转化线索纳入统一看板，支持按品牌、平台与时间维度复盘，便于对内汇报与迭代。",
+        "image": "/imgs/features/6.png",
+        "imageAlt": "看板"
+      }
+    ]
+  },
+  "professional_showcase": {
+    "title": "从认知到落地：监测 · 培训 · 优化",
+    "professionals": [
+      {
+        "id": "pillar-monitor",
+        "title": "数据监测",
+        "description": "真实场景采样 · 多平台覆盖",
+        "detailTitle": "GEO 与可见性监测",
+        "detailDescription": "围绕 AI 对话与平台规则变化，持续采集可见性信号，识别异常与机会点；支持按品牌、竞品与任务维度对比，为后续策略提供依据。",
+        "backgroundImage": "/imgs/steps/step1.png",
+        "detailImage": "/imgs/steps/step1.png",
+        "gradient": "linear-gradient(rgba(30, 58, 138, 0.85) 0%, rgba(37, 99, 235, 0.85) 100%)",
+        "buttonText": "了解方案",
+        "buttonUrl": "/pricing"
+      },
+      {
+        "id": "pillar-training",
+        "title": "方法培训",
+        "description": "团队共建 GEO 与语义 SEO 能力",
+        "detailTitle": "培训与共创",
+        "detailDescription": "面向市场与内容团队，讲解 GEO/语义 SEO 机制、内容模板与协作流程，缩短从策略到执行的距离，减少对外部黑箱依赖。",
+        "backgroundImage": "/imgs/steps/step2.png",
+        "detailImage": "/imgs/steps/step2.png",
+        "gradient": "linear-gradient(rgba(88, 28, 135, 0.85) 0%, rgba(147, 51, 234, 0.85) 100%)",
+        "buttonText": "预约交流",
+        "buttonUrl": "/pricing"
+      },
+      {
+        "id": "pillar-optimize",
+        "title": "持续优化",
+        "description": "策略迭代与内容协同",
+        "detailTitle": "优化与复盘",
+        "detailDescription": "结合监测数据与业务目标，滚动调整关键词资产、内容矩阵与渠道节奏；固定复盘机制，让每一次投放与内容迭代都可追踪、可对比。",
+        "backgroundImage": "/imgs/steps/step3.png",
+        "detailImage": "/imgs/steps/step3.png",
+        "gradient": "linear-gradient(rgba(21, 94, 117, 0.85) 0%, rgba(14, 165, 233, 0.85) 100%)",
+        "buttonText": "获取建议",
+        "buttonUrl": "/pricing"
+      }
+    ]
+  },
+  "feature-modern": {
+    "name": "feature-modern",
+    "title": "为什么选择珊瑚 GEO",
+    "description": "把「AI 里的品牌」与「搜索里的品牌」放在同一套方法论与数据里，而不是两套外包话术。",
+    "items": [
+      {
+        "title": "双场景一体",
+        "description": "同时覆盖生成式 AI 与内容平台搜索路径，避免只投一端、另一端失守。",
+        "icon": "RiRobotLine"
+      },
+      {
+        "title": "可解释的数据",
+        "description": "指标与维度可下钻，方便向管理层说明投入产出与下一步动作。",
+        "icon": "BsPlayCircle"
+      },
+      {
+        "title": "语义级策略",
+        "description": "从问题意图与主题网络出发，而不只堆关键词密度。",
+        "icon": "BiCheckCircle"
+      },
+      {
+        "title": "内容协同",
+        "description": "监测结论可反哺选题、脚本与落地页，而不是停在一份 PDF。",
+        "icon": "MdHighQuality"
+      },
+      {
+        "title": "行业可复制",
+        "description": "方法论可沉淀为模板，适合多品牌、多产品线扩展。",
+        "icon": "PiImage"
+      },
+      {
+        "title": "持续迭代",
+        "description": "平台与模型规则会变，策略与资产库需要跟着迭代，我们按周期复盘。",
+        "icon": "RiEditBoxLine"
+      }
+    ]
+  },
+  "creative-suite": {
+    "name": "creative-suite",
+    "title": "典型能力模块",
+    "categories": [
+      {
+        "id": "geo-stack",
+        "name": "GEO 与 AI 可见性",
+        "cards": [
+          {
+            "title": "品牌提及与排名监测",
+            "description": "在典型提问场景下跟踪品牌是否出现、位次与上下文情感倾向。",
+            "image": "/imgs/creative-suite/video-creation/ai-video-generation.png",
+            "link": "#"
+          },
+          {
+            "title": "引用与信源分析",
+            "description": "识别哪些内容更易被模型引用，指导权威内容与结构化信息建设。",
+            "image": "/imgs/creative-suite/video-creation/auto-video-editing.png",
+            "link": "#"
+          },
+          {
+            "title": "竞品对比视图",
+            "description": "同一批问题上对比主竞品与自身差距，快速定位短板场景。",
+            "image": "/imgs/creative-suite/video-creation/video-style-transfer.png",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "id": "search-stack",
+        "name": "搜索与内容增长",
+        "cards": [
+          {
+            "title": "平台内搜索词布局",
+            "description": "围绕短视频、图文等内容平台的搜索路径配置词与内容形态。",
+            "image": "/imgs/creative-suite/image-creation/ai-image-generation.png",
+            "link": "#"
+          },
+          {
+            "title": "语义扩展与选题库",
+            "description": "从核心词扩展到问题簇与场景句，支撑批量选题与 A/B。",
+            "image": "/imgs/creative-suite/image-creation/smart-image-editing.png",
+            "link": "#"
+          },
+          {
+            "title": "落地页与转化线索",
+            "description": "将搜索与 AI 流量导向可衡量线索，而非仅曝光数字。",
+            "image": "/imgs/creative-suite/image-creation/image-style-migration.png",
+            "link": "#"
+          }
+        ]
+      }
+    ]
+  },
+  "saas-features": {
+    "name": "saas-features",
+    "title": "交付与协作方式",
+    "try_button": "联系我们",
+    "categories": [
+      {
+        "id": "delivery",
+        "name": "项目制与订阅",
+        "cards": [
+          {
+            "title": "诊断与规划",
+            "description": "基于现状数据输出阶段目标、优先级与里程碑，避免一上来大拆大建。",
+            "image": "/imgs/saas-features/frontend/responsive-design.png",
+            "link": "#"
+          },
+          {
+            "title": "内容与应用协同",
+            "description": "与市场、运营、电商团队对齐节奏，监测结果直接反馈到周更内容计划。",
+            "image": "/imgs/saas-features/frontend/multi-theme-support.png",
+            "link": "#"
+          },
+          {
+            "title": "培训与文档",
+            "description": "关键流程与模板留档，核心成员可轮岗接手，降低人员流动风险。",
+            "image": "/imgs/saas-features/frontend/internationalization.png",
+            "link": "#"
+          },
+          {
+            "title": "复盘与升级",
+            "description": "按季度或大促后复盘，调整词库、监测维度与竞品对标范围。",
+            "image": "/imgs/saas-features/frontend/seo-optimization.png",
+            "link": "#"
+          }
+        ]
+      }
+    ]
+  },
+  "showcase": {
+    "name": "showcase",
+    "title": "服务领域（示例）",
+    "description": "以下为能力适用行业示例，具体方案以诊断与合约为准。",
+    "items": [
+      {
+        "title": "科技与消费电子",
+        "description": "高对比竞品与参数类问题密集，适合强化语义与信源。",
+        "image": "/imgs/showcases/chameleon.png",
+        "link": "#"
+      },
+      {
+        "title": "零售与品牌",
+        "description": "多 SKU 与渠道并存，需要统一监测与分线复盘。",
+        "image": "/imgs/showcases/agthub.png",
+        "link": "#"
+      },
+      {
+        "title": "教育与本地服务",
+        "description": "强依赖本地与场景化提问，适合问题库与地域词扩展。",
+        "image": "/imgs/showcases/chameleon.png",
+        "link": "#"
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "About GEO & Omnichannel Search",
+    "description": "Contact us to assess fit for your brand.",
+    "items": [
+      {
+        "question": "GEO 和传统 SEO 有什么不一样？",
+        "answer": "传统 SEO 主要优化网页在搜索引擎结果中的排名；GEO 更关注品牌在生成式 AI 回答中的出现、引用与表述是否准确。二者可并行，但策略与内容形态不同，需要分别监测。"
+      },
+      {
+        "question": "是否只服务某一个 AI 平台？",
+        "answer": "一般会按您的客群与行业选择重点平台组合监测，并保留扩展空间。具体覆盖范围可在立项时与顾问确认。"
+      },
+      {
+        "question": "没有专职 SEO 团队能做吗？",
+        "answer": "可以分阶段推进：先完成监测与诊断，再由我们协助搭建最小可行的内容节奏与模板；培训与文档可降低对单点人员的依赖。"
+      },
+      {
+        "question": "多久能看到变化？",
+        "answer": "与行业竞争度、当前基础与内容投入相关。通常先建立基线与词库，再在 8～12 周观察趋势；我们会用数据说明阶段性结论，而不是承诺固定排名。"
+      },
+      {
+        "question": "数据安全与品牌表述如何保障？",
+        "answer": "建议在合约中约定数据归属、脱敏规则与对外话术审批流程；涉及敏感行业时，可限制监测范围与存储周期。"
+      },
+      {
+        "question": "如何开始合作？",
+        "answer": "可通过价格页选择合适套餐或预约沟通，明确目标、范围与交付物后启动；亦支持先小规模试点再扩展。"
+      }
+    ]
+  },
+  "cta": {
+    "name": "growth-consult-section",
+    "title": "Start dual-engine growth with GEO + Omnichannel Search",
+    "description": "Coral GEO provides professional solutions for AI search and in-platform search visibility.",
+    "buttons": [
+      {
+        "title": "Free consultation",
+        "url": "/pricing",
+        "target": "_self",
+        "variant": "default"
+      }
+    ]
+  }
+}

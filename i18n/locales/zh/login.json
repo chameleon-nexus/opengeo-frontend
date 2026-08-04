@@ -1,0 +1,40 @@
+{
+  "title": "登录",
+  "subtitle": "AI 驱动的品牌可见度与内容优化平台",
+  "heroTitle": "下一代",
+  "heroTitleLine2": "生成引擎优化平台",
+  "heroSubtitle": "GEO · Generative Engine Optimization",
+  "welcome": "欢迎回来",
+  "welcomeHint": "登录以访问您的控制台",
+  "features": {
+    "analysis": "AI 驱动的品牌可见度分析与优化",
+    "content": "多平台内容智能生成与分发",
+    "monitoring": "实时竞品监测与行业洞察"
+  },
+  "form": {
+    "username": "账号",
+    "password": "密码",
+    "usernamePlaceholder": "请输入用户名",
+    "passwordPlaceholder": "请输入密码",
+    "submit": "登 录",
+    "submitting": "正在验证..."
+  },
+  "agreement": {
+    "prefix": "我已阅读并同意",
+    "privacy": "《平台隐私政策》",
+    "and": "和",
+    "terms": "《平台用户服务协议》"
+  },
+  "errors": {
+    "agreementRequired": "请先阅读并同意《平台隐私政策》和《平台用户服务协议》",
+    "loginFailed": "登录失败，请检查账号和密码"
+  },
+  "header": {
+    "home": "首页",
+    "pricing": "价格",
+    "blog": "资讯",
+    "login": "登录 / 注册",
+    "dashboard": "进入工作台",
+    "geo": "GEO"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "pageTitle": "Keyword Distillation",
+  "moduleSubtitle": "Extract brand information from knowledge bases and generate SEO keywords via AI web search",
+  "subtitle": "Semantic keyword tasks can be used directly in Content Generation. Delete unused packs from the actions column.",
+  "actions": {
+    "back": "Back",
+    "newTask": "Keyword distillation",
+    "manualInput": "Manual entry",
+    "refresh": "Refresh list",
+    "filter": "Filter by keyword",
+    "view": "View extraction results",
+    "delete": "Delete pack"
+  },
+  "table": {
+    "taskId": "Task ID",
+    "packName": "Pack name",
+    "type": "Type",
+    "time": "Time",
+    "source": "Data source",
+    "keywordCount": "Keyword count",
+    "status": "Status",
+    "actions": "Actions",
+    "entities": "Entities"
+  },
+  "types": {
+    "brandParse": "Brand parse",
+    "manual": "Manual entry",
+    "normal": "Standard keywords",
+    "semantic": "Semantic keywords"
+  },
+  "status": {
+    "completed": "Completed",
+    "processing": "Processing",
+    "failed": "Failed",
+    "pending": "Pending"
+  },
+  "form": {
+    "searchPlaceholder": "Search task ID or name"
+  },
+  "module": {
+    "taskName": "Task name",
+    "taskNamePlaceholder": "Enter a task name for easy identification…",
+    "knowledgeBase": "Select knowledge base",
+    "loadingKb": "Loading knowledge bases…",
+    "retry": "Retry",
+    "noKb": "No knowledge bases",
+    "createKbFirst": "Create one in Knowledge Base first",
+    "docCount": "{{count}} documents",
+    "kbStatus": {
+      "ready": "Ready",
+      "indexing": "Indexing",
+      "idle": "Idle"
+    },
+    "knowledgeGraph": "Select knowledge graph",
+    "loading": "Loading…",
+    "noGraph": "No knowledge graph tasks. Create one in Knowledge Graph first.",
+    "noGraphOption": "No graph (optional)",
+    "expectedCount": "Expected count",
+    "startExtract": "Start extraction",
+    "expandResult": "Expansion results",
+    "extractResult": "Extraction results",
+    "expandResultHint": "Keyword pack saved from expansion",
+    "extractResultHint": "Semantic keywords and extension questions"
+  },
+  "productNav": {
+    "back": "Back",
+    "product": "Product",
+    "allProducts": "All products",
+    "loading": "Loading…",
+    "noProducts": "No product data"
+  },
+  "empty": {
+    "noHistory": "No history yet. Start by generating keywords.",
+    "noResults": "No matching results"
+  },
+  "confirm": {
+    "delete": "Delete this keyword pack? It will no longer appear in lists or content generation."
+  },
+  "errors": {
+    "loadFailed": "Failed to load history",
+    "deleteFailed": "Delete failed"
+  }
+}

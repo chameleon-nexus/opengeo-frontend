@@ -1,0 +1,68 @@
+{
+  "pageTitle": "Knowledge Graph",
+  "subtitle": "Semantic SEO drilling tasks for entity and relation extraction",
+  "actions": {
+    "back": "Back",
+    "create": "New graph",
+    "creating": "Creating…",
+    "delete": "Delete",
+    "deleting": "Deleting…",
+    "refresh": "Refresh",
+    "open": "Open graph",
+    "close": "Close"
+  },
+  "table": {
+    "taskId": "Task ID",
+    "graphName": "Graph name",
+    "knowledgeBase": "Knowledge base",
+    "keyword": "Core keyword",
+    "status": "Status",
+    "createdAt": "Created at",
+    "actions": "Actions"
+  },
+  "form": {
+    "searchPlaceholder": "Search task ID or graph name",
+    "graphName": "Graph name",
+    "graphNamePlaceholder": "Enter a graph name for easy identification…",
+    "keyword": "Core keyword",
+    "keywordPlaceholder": "e.g. Dali travel",
+    "knowledgeBase": "Knowledge base",
+    "entityModel": "Entity model",
+    "relationModel": "Relation model"
+  },
+  "status": {
+    "pending": "Pending",
+    "running": "Running",
+    "completed": "Completed",
+    "failed": "Failed"
+  },
+  "empty": {
+    "noTasks": "No knowledge graph tasks yet",
+    "noKnowledgeBases": "No knowledge bases yet. Create one in Knowledge Base first.",
+    "noWorkflowKb": "No knowledge base linked to this workflow. Create one in Knowledge Base first.",
+    "workflowLimit": "Only one knowledge graph is allowed per workflow for this account."
+  },
+  "confirm": {
+    "delete": "Delete this knowledge graph?"
+  },
+  "errors": {
+    "loadFailed": "Failed to load tasks",
+    "createFailed": "Failed to create task",
+    "deleteFailed": "Delete failed",
+    "selectKb": "Please select a knowledge base"
+  },
+  "models": {
+    "entity": {
+      "bert": { "name": "BERT", "desc": "Bidirectional encoder" },
+      "roberta": { "name": "RoBERTa", "desc": "Optimized BERT" },
+      "albert": { "name": "ALBERT", "desc": "Lightweight BERT" },
+      "electra": { "name": "ELECTRA", "desc": "Efficient pre-training" }
+    },
+    "relation": {
+      "pcnn": { "name": "PCNN", "desc": "Piecewise CNN" },
+      "bilstm": { "name": "BiLSTM", "desc": "Bidirectional LSTM" },
+      "att_pooling": { "name": "Att-Pooling", "desc": "Attention pooling" },
+      "transformer": { "name": "Transformer", "desc": "Self-attention" }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Dashboard",
+  "computeLoad": "Compute: high load",
+  "subtitle": "Overview of brands and optimization data",
+  "metrics": {
+    "brands": "Brands",
+    "workflows": "Workflows",
+    "tasks": "Tasks",
+    "reports": "Reports"
+  },
+  "empty": "No dashboard data yet",
+  "refresh": "Refresh"
+}

@@ -1,0 +1,28 @@
+{
+  "language": {
+    "zh": "中文",
+    "en": "English",
+    "switch": "切换语言",
+    "settings": "语言设置"
+  },
+  "actions": {
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "delete": "删除",
+    "edit": "编辑",
+    "search": "搜索",
+    "reset": "重置",
+    "back": "返回",
+    "submit": "提交",
+    "close": "关闭",
+    "refresh": "刷新",
+    "loading": "加载中..."
+  },
+  "status": {
+    "loading": "加载中",
+    "success": "成功",
+    "failed": "失败",
+    "noData": "暂无数据"
+  }
+}

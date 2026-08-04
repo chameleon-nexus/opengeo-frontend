@@ -1,0 +1,32 @@
+{
+  "pageTitle": "New Optimization",
+  "heroTitle": "GEO LLM",
+  "subtitle": "Tell me the brand you want to optimize and I'll build a plan for you",
+  "subtitleNavigated": "Navigated to workbench — you can return to continue the conversation",
+  "actions": {
+    "send": "Send",
+    "uploadMaterials": "Upload knowledge base materials",
+    "uploadMaterialsAria": "Upload knowledge base materials"
+  },
+  "form": {
+    "inputPlaceholder": "Describe your brand, product or optimization goals…"
+  },
+  "jumpCard": {
+    "created": "Optimization workflow created for \"{{brandName}}\"",
+    "workflowHint": "Workflow ID: {{workflowId}} · Entering brand parsing shortly",
+    "enterWorkbench": "Open workbench now"
+  },
+  "filesSelected": "{{count}} knowledge base file(s) selected",
+  "directStart": "Quick start — begin optimization directly",
+  "thinking": "Thinking…",
+  "defaultBrandName": "Your brand",
+  "suggestions": {
+    "newOptimization": "New optimization"
+  },
+  "empty": {
+    "noMessages": "Start a conversation to begin"
+  },
+  "errors": {
+    "createWorkflowFailed": "Failed to create optimization workflow"
+  }
+}

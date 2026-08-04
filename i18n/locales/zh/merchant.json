@@ -1,0 +1,165 @@
+{
+  "merchantProfile": {
+    "pageTitle": "企业资料",
+    "subtitle": "用于协议展示与联系的企业主体信息",
+    "actions": {
+      "save": "保存",
+      "saving": "保存中..."
+    },
+    "form": {
+      "companyName": "企业名称",
+      "companyNamePlaceholder": "如：上海某某科技有限公司",
+      "contactEmail": "联系邮箱",
+      "contactEmailPlaceholder": "用于协议展示与联系",
+      "address": "联系地址",
+      "addressPlaceholder": "如：上海市某某区某某路某某号",
+      "legalRepresentative": "法人",
+      "legalRepresentativePlaceholder": "如：张三"
+    },
+    "errors": {
+      "loadFailed": "加载失败",
+      "saveFailed": "保存失败"
+    },
+    "loading": "加载中...",
+    "legalInfo": "法律信息",
+    "legalInfoHint": "备案号、公安备案号请在「aieo官网」中配置，子站底部与隐私政策统一使用该配置。",
+    "legalRepresentativeLabel": "法人代表",
+    "agreementHint": "请务必填写真实信息，这将直接用于您子站的《用户协议》与《隐私政策》生成。"
+  },
+  "brandManagement": {
+    "pageTitle": "品牌管理",
+    "subtitle": "管理品牌、品类与产品",
+    "actions": {
+      "create": "创建品牌",
+      "save": "保存",
+      "saving": "保存中...",
+      "delete": "删除",
+      "assignCustomer": "分配客户",
+      "addCategory": "添加品类",
+      "addProduct": "添加产品"
+    },
+    "form": {
+      "brandId": "品牌 ID",
+      "brandIdPlaceholder": "输入品牌ID (英文，如: philips)",
+      "brandName": "品牌名称",
+      "brandNamePlaceholder": "输入品牌名称...",
+      "customer": "客户账户",
+      "noCustomers": "暂无客户账户",
+      "unassignCustomer": "不分配（移除客户归属）",
+      "unassignCustomerNew": "不分配（暂不分配客户）",
+      "categoryName": "品类名称",
+      "categoryNamePlaceholder": "输入新品类名称...",
+      "productModel": "产品型号",
+      "productModelPlaceholder": "输入产品型号..."
+    },
+    "empty": {
+      "noCustomersHint": "请先在「账户管理」中创建客户账户"
+    },
+    "confirm": {
+      "deleteBrand": "确定要删除此品牌吗？这将同时删除其所有产品数据。",
+      "deleteCategory": "确定要删除此品类吗？这将同时删除该品类下的所有产品。",
+      "deleteProduct": "确定要删除此产品吗？"
+    },
+    "errors": {
+      "loadFailed": "加载品牌目录失败",
+      "createFailed": "创建品牌失败",
+      "updateFailed": "更新失败",
+      "deleteFailed": "删除失败",
+      "requireBrandFields": "请输入品牌名称和品牌ID",
+      "requireLogin": "您需要先登录才能创建品牌",
+      "requireAdmin": "需要管理员权限。请使用管理员账号登录。",
+      "forbidden": "权限不足。此操作需要管理员权限。"
+    }
+  },
+  "contactSubmissions": {
+    "pageTitle": "联系留言",
+    "subtitle": "访客提交的联系表单留言",
+    "actions": {
+      "refresh": "刷新",
+      "view": "查看详情",
+      "delete": "删除"
+    },
+    "table": {
+      "name": "姓名",
+      "email": "邮箱",
+      "message": "留言",
+      "createdAt": "提交时间",
+      "actions": "操作",
+      "phone": "联系方式",
+      "company": "公司",
+      "time": "时间",
+      "status": "状态"
+    },
+    "empty": {
+      "noMessages": "暂无留言",
+      "noMessagesHint": "当访客在子站提交联系表单后，留言将显示在这里"
+    },
+    "confirm": {
+      "delete": "确定要删除该留言吗？"
+    },
+    "errors": {
+      "deleteFailed": "删除失败"
+    },
+    "loading": "加载中...",
+    "pageTitleAlt": "留言管理",
+    "pageTitleSite": "客户留资",
+    "status": {
+      "read": "已读",
+      "new": "新"
+    },
+    "detail": {
+      "title": "留言详情",
+      "close": "关闭",
+      "name": "姓名",
+      "phone": "主联系方式",
+      "contacts": "全部联系方式",
+      "company": "公司",
+      "message": "留言",
+      "source": "来源",
+      "ip": "IP",
+      "time": "时间"
+    },
+    "pagination": {
+      "total": "共 {{count}} 条留言"
+    }
+  },
+  "businessIntro": {
+    "pageTitle": "业务能力",
+    "subtitle": "模板站首页「业务能力 / 我们的服务」区块",
+    "subtitleSite": "用于模板站首页「业务能力 / 我们的服务」区块，按当前站点保存。",
+    "subtitleLegacy": "旧版按商户保存；建议在站点工作台中配置。",
+    "actions": {
+      "save": "保存",
+      "saving": "保存中...",
+      "upload": "上传图片",
+      "removeStep": "删除"
+    },
+    "form": {
+      "blockTitle": "区块标题",
+      "blockTitlePlaceholder": "我们的服务",
+      "stepTitle": "步骤标题",
+      "stepDescription": "简短描述",
+      "stepDetail": "展开详情描述（悬停时显示的正文）",
+      "backgroundUrl": "背景图 URL（或上传）",
+      "buttonText": "按钮文案",
+      "buttonLink": "按钮链接"
+    },
+    "errors": {
+      "uploadFailed": "上传失败",
+      "saveFailed": "保存失败"
+    },
+    "loading": "加载中...",
+    "stepsList": "步骤列表",
+    "addStep": "添加步骤",
+    "uploadBackground": "上传背景图"
+  },
+  "templateSiteAIEO": {
+    "noSites": "暂无模板站",
+    "noSitesHint": "请先在「站点管理」中创建模板站，再配置企业介绍与前台展示内容。",
+    "selectSiteTitle": "选择要配置的模板站",
+    "selectSiteHint": "企业介绍、业务描述等已按站点保存，请从列表进入。",
+    "noDomain": "未绑定域名",
+    "switchSite": "换站点",
+    "openInWorkbench": "在站点工作台打开"
+  }
+}

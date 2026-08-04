@@ -1,0 +1,13 @@
+{
+  "title": "全局看板",
+  "computeLoad": "算力资源: 高负载",
+  "subtitle": "品牌与优化数据总览",
+  "metrics": {
+    "brands": "品牌数",
+    "workflows": "优化主线",
+    "tasks": "任务数",
+    "reports": "报告数"
+  },
+  "empty": "暂无看板数据",
+  "refresh": "刷新数据"
+}

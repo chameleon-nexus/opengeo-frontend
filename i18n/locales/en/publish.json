@@ -1,0 +1,269 @@
+{
+  "sourceHub": {
+    "pageTitle": "Source Library",
+    "subtitle": "Domestic and overseas media publishing entry points",
+    "empty": "No source library features available for your role",
+    "sections": {
+      "domestic": "Domestic",
+      "overseas": "Overseas"
+    },
+    "entries": {
+      "thirdPartyPublish": {
+        "label": "Third-Party Media",
+        "description": "Domestic authoritative media publishing queue"
+      },
+      "socialMediaAccounts": {
+        "label": "Overseas Social Accounts",
+        "description": "Bind and manage overseas social media accounts"
+      },
+      "publishRecords": {
+        "label": "Overseas Social Publishing",
+        "description": "View overseas social publishing records"
+      },
+      "overseasThirdPartyPublish": {
+        "label": "Overseas Third-Party Media",
+        "description": "Overseas third-party media publishing queue"
+      }
+    }
+  },
+  "status": {
+    "generated": "Generated",
+    "pending": "Pending publish",
+    "partial": "Partially published",
+    "published": "Published"
+  },
+  "pageTitle": "Third-Party Media Publishing",
+  "subtitle": "Manage domestic and overseas media publishing tasks",
+  "actions": {
+    "back": "Back",
+    "refresh": "Refresh list",
+    "search": "Search",
+    "export": "Export",
+    "exporting": "Exporting…",
+    "import": "Import",
+    "submitPending": "Submit for publish",
+    "submitting": "Submitting…",
+    "delete": "Delete",
+    "deleting": "Deleting…",
+    "editArticle": "Edit article",
+    "viewArticle": "View article",
+    "save": "Save",
+    "saveWorkflowTier": "Save workflow tier"
+  },
+  "table": {
+    "taskName": "Task name",
+    "keywords": "Keywords",
+    "status": "Status",
+    "articleCount": "Articles",
+    "createdAt": "Created at",
+    "actions": "Actions",
+    "title": "Title",
+    "entry": "Entry",
+    "content": "Content"
+  },
+  "form": {
+    "searchAdmin": "Search task name, status…",
+    "searchMerchant": "Search task name, keywords, status…",
+    "searchArticle": "Search title, entry or body…"
+  },
+  "empty": {
+    "noTasks": "No matching tasks",
+    "noWorkflowTasks": "No media publishing tasks for this workflow yet. If articles are still generating, check queue status in Smart Optimization and refresh later",
+    "noArticles": "No articles"
+  },
+  "confirm": {
+    "submitPending": "Submit this group as pending publish? Platform ops will process publishing after submission."
+  },
+  "errors": {
+    "exportFailed": "Export failed",
+    "deleteFailed": "Delete failed",
+    "submitFailed": "Submit failed",
+    "saveFailed": "Save failed",
+    "importFailed": "Import failed",
+    "markFailed": "Mark failed",
+    "batchDeleteFailed": "Batch delete failed",
+    "bodyRequired": "Body cannot be empty"
+  },
+  "batchPanel": {
+    "backToList": "Back to list",
+    "backToArticles": "Back to articles",
+    "adminTitle": "Process · {{name}}",
+    "editTitle": "Edit articles · {{name}}",
+    "articleCount": "{{count}} articles in this group",
+    "hintEditable": " · Edit body then submit for publish",
+    "hintAdminViewTier": " · Click an article to view effective media tier",
+    "hintViewOnly": " · View only",
+    "copyFullText": "Copy full text",
+    "removeFromBatch": "Remove from batch",
+    "effectiveMediaTier": "Effective media tier",
+    "currentEffective": "Currently effective: {{label}}{{source}}; article overrides batch, batch overrides workflow.",
+    "saveMediaTier": "Save media tier",
+    "sourceLabel": "Source: {{source}}",
+    "sourceDefault": "Source: system default",
+    "noBody": "No body yet",
+    "batchDefaultTier": "Batch default media tier",
+    "batchDefaultHint": "Articles without an override use this tier; unset inherits workflow default.",
+    "saveBatchTier": "Save batch tier",
+    "groupArticles": "Articles in group",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect all",
+    "selectedCount": "{{count}} selected",
+    "markPublished": "Mark published",
+    "articleTitleCol": "Article title",
+    "effectiveTierCol": "Effective tier",
+    "published": "Published",
+    "defaultTier": "Standard media",
+    "pointsPerArticle": "{{count}} pts/article",
+    "entryLabel": "Entry: {{text}}",
+    "saved": "Saved",
+    "selectDocx": "Please select .docx files",
+    "importResult": "Imported {{count}} article(s)",
+    "importPartial": "Imported {{count}}; some failed:\n{{errors}}",
+    "selectToDelete": "Select articles to delete first",
+    "confirmRemoveOne": "Remove «{{title}}» from this batch?",
+    "confirmRemoveAll": "Remove all {{count}} articles? The publish task will be deleted.",
+    "confirmRemoveSelected": "Remove {{count}} selected article(s) from this batch?",
+    "selectToMark": "Select articles to mark first",
+    "allPublished": "All selected articles are already published",
+    "confirmMarkPublished": "Mark {{count}} selected article(s) as published?",
+    "allGroupPublished": "All articles in this group are published",
+    "markedPublished": "Marked {{count}} article(s) as published"
+  },
+  "socialMediaAccounts": {
+    "pageTitle": "Overseas Social Accounts",
+    "pageSubtitle": "Bind and manage overseas social media accounts",
+    "overseasBadge": "Overseas",
+    "addTitle": "Add overseas social account",
+    "addSubtitle": "Enter credentials here; platforms requiring OAuth will open the authorization page",
+    "backToList": "Back to account list",
+    "back": "Back",
+    "formTitle": "Enter credentials · {{platform}}",
+    "formSubtitle": "Enter platform credentials; they will be used for overseas social publishing.",
+    "credentials": "Platform credentials",
+    "confirmBind": "Confirm bind",
+    "binding": "Binding…",
+    "cancel": "Cancel",
+    "oauthTitle": "Platform authorization · {{platform}}",
+    "oauthSubtitle": "This platform requires OAuth on the official site; the account will appear in the list when done.",
+    "oauthSteps": "Authorization steps",
+    "oauthStep1": "Click Go authorize to open the platform authorization page",
+    "oauthStep2": "Sign in on the platform and approve authorization",
+    "oauthStep3": "Close the auth window and return here; the list refreshes automatically",
+    "goAuthorize": "Go authorize",
+    "waitingOAuth": "Waiting for authorization…",
+    "sync": "Sync",
+    "addAccount": "Add account",
+    "authorized": " · Authorized",
+    "unauthorized": " · Not authorized",
+    "delete": "Delete",
+    "otherPlatform": "Other",
+    "serviceUnavailable": "Overseas publishing service unavailable. Contact ops or try again later.",
+    "allowPopup": "Please allow pop-ups to complete authorization",
+    "oauthUrlFailed": "Failed to get authorization URL",
+    "invalidField": "Please enter a valid «{{label}}»",
+    "bindFailed": "Bind failed",
+    "syncFailed": "Sync failed",
+    "confirmDelete": "Delete this overseas social account?",
+    "deleteFailed": "Delete failed"
+  },
+  "publishRecords": {
+    "pageTitle": "Overseas Social Publishing",
+    "pageSubtitle": "Overseas social publishing records",
+    "overseasBadge": "Overseas",
+    "filterHint": "Showing publish records for optimization task {{taskId}} only",
+    "clearFilter": "Clear filter",
+    "searchPlaceholder": "Search keywords, task ID, account…",
+    "refreshList": "Refresh list",
+    "newPublish": "New publish",
+    "allPublishTypes": "All publish types",
+    "allPushStatus": "All push status",
+    "draftOnly": "Drafts only",
+    "articleKeyword": "Article / keyword",
+    "account": "Account",
+    "status": "Status",
+    "platformStatus": "Platform status",
+    "createdAt": "Created at",
+    "actions": "Actions",
+    "loading": "Loading…",
+    "emptyHint": "No publish tasks yet. Click New publish to create one",
+    "noMatch": "No matching publish records",
+    "retrySend": "Send again",
+    "retryFailed": "Resend failed",
+    "totalLoaded": "{{total}} total, showing {{loaded}} loaded",
+    "localFilter": " · {{count}} after local filter",
+    "localFilterOnly": "Local filter: {{filtered}} / {{total}}",
+    "recordStatus": {
+      "pending": "Pending",
+      "submitted": "Submitted",
+      "success": "Success",
+      "failed": "Failed"
+    }
+  },
+  "mediaTierSource": {
+    "article": "This article",
+    "batch": "Batch default",
+    "workflow": "Workflow default",
+    "default": "System default"
+  },
+  "mediaTier": {
+    "showcase": {
+      "title": "Partner media coverage",
+      "subtitle": "Mainstream authoritative media and content platforms for credible brand voice",
+      "overseasTitle": "Overseas partner media coverage",
+      "overseasSubtitle": "International authoritative media and content platforms for global brand voice"
+    },
+    "picker": {
+      "loading": "Loading media tiers…",
+      "empty": "No media tier configuration",
+      "inheritDefault": "Use batch default",
+      "saveHint": "Click Save to apply changes",
+      "saving": "Saving…"
+    },
+    "hint": {
+      "viewSummary": "View tier details"
+    },
+    "tiers": {
+      "standard": {
+        "label": "Standard media",
+        "summary": "Mainstream self-media and general platforms, e.g. NetEase, Sohu, Toutiao"
+      },
+      "premium": {
+        "label": "Premium media",
+        "summary": "Vertical premium outlets, e.g. Autohome, Bitauto and other industry leaders"
+      },
+      "authority": {
+        "label": "Authority media",
+        "summary": "National-level authority media, e.g. Xinhua, People's Daily and other state media"
+      }
+    },
+    "overseasTiers": {
+      "standard": {
+        "summary": "Mainstream international content platforms, e.g. Yahoo, MSN, Medium, TechCrunch"
+      },
+      "premium": {
+        "summary": "Global mainstream news and business media, e.g. Forbes, CNN, BBC"
+      },
+      "authority": {
+        "summary": "International wire services and newswire platforms, e.g. Reuters, Bloomberg, AP News, PR Newswire"
+      }
+    }
+  },
+  "workflowConfig": {
+    "title": "Workflow publishing settings",
+    "hint": "Defaults for this workflow; can be overridden per batch or article.",
+    "defaultTier": "Default media tier",
+    "skipReview": "Skip review",
+    "skipReviewHint": "When enabled, queued and manually created tasks go directly to Pending publish.",
+    "saving": "Saving…",
+    "articleUnit": "{{count}} articles",
+    "articleUnitShort": "{{count}}",
+    "process": "Process",
+    "selectArticles": "Select generated articles (multi-select)",
+    "selectAllPage": "Select/deselect all on page",
+    "allCompletedArticles": "All completed articles · {{total}} total",
+    "selectedCount": " · {{count}} selected",
+    "publishCountLabel": "Media publish count (articles)",
+    "articleSuffix": "articles",
+    "startTraining": "Start training"
+  }
+}

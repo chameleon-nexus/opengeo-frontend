@@ -1,0 +1,312 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "定价",
+    "title": "定价",
+    "description": "获取珊瑚GEO的所有功能，快速启动您的语义SEO项目。",
+    "groups": [
+      {
+        "name": "one-time",
+        "title": "一次性付费",
+        "is_featured": true,
+        "label": "最大优惠"
+      },
+      {
+        "name": "monthly",
+        "title": "月付"
+      },
+      {
+        "name": "yearly",
+        "title": "年付",
+        "label": "节省25%"
+      }
+    ],
+    "items": [
+      {
+        "title": "入门版",
+        "description": "开始您的第一个语义SEO项目。",
+        "features_title": "包含功能",
+        "features": [
+          "100积分，有效期1个月",
+          "语义SEO基础功能",
+          "数据可视化",
+          "基础报告生成",
+          "📧 邮件支持（24-48小时响应）"
+        ],
+        "interval": "one-time",
+        "amount": 9900,
+        "currency": "CNY",
+        "price": "¥99",
+        "original_price": "¥199",
+        "unit": "一次性",
+        "is_featured": true,
+        "tip": "一次性付费，无限使用！最大优惠！",
+        "button": {
+          "title": "立即咨询",
+          "url": "/pricing"
+        },
+        "product_id": "starter",
+        "product_name": "入门版",
+        "credits": 100,
+        "valid_months": 1,
+        "group": "one-time"
+      },
+      {
+        "title": "标准版",
+        "description": "快速启动您的语义SEO项目。",
+        "label": "热门",
+        "features_title": "包含入门版所有功能，另加",
+        "features": [
+          "200积分，有效期3个月",
+          "高级语义分析",
+          "实时SEO监控",
+          "智能报告生成",
+          "💬 技术支持（2-4小时响应）",
+          "🚀 部署指导支持"
+        ],
+        "interval": "one-time",
+        "amount": 19900,
+        "currency": "CNY",
+        "price": "¥199",
+        "original_price": "¥299",
+        "unit": "一次性",
+        "is_featured": true,
+        "tip": "一次性付费，无限使用！最大优惠！",
+        "button": {
+          "title": "立即咨询",
+          "url": "/pricing"
+        },
+        "product_id": "standard",
+        "product_name": "标准版",
+        "credits": 200,
+        "valid_months": 3,
+        "group": "one-time"
+      },
+      {
+        "title": "高级版",
+        "description": "启动任何语义SEO项目。",
+        "features_title": "包含标准版所有功能，另加",
+        "features": [
+          "300积分，有效期1年",
+          "AI商业功能",
+          "用户中心",
+          "积分系统",
+          "API销售",
+          "管理系统",
+          "优先技术支持",
+          "💬 优先支持（1-2小时响应）",
+          "🛠️ 二次开发指导",
+          "📞 技术咨询",
+          "🎯 项目架构规划"
+        ],
+        "interval": "one-time",
+        "amount": 29900,
+        "currency": "CNY",
+        "price": "¥299",
+        "original_price": "¥399",
+        "unit": "一次性",
+        "is_featured": true,
+        "tip": "一次性付费，无限使用！最大优惠！",
+        "button": {
+          "title": "立即咨询",
+          "url": "/pricing"
+        },
+        "product_id": "premium",
+        "product_name": "高级版",
+        "credits": 300,
+        "valid_months": 12,
+        "group": "one-time"
+      },
+      {
+        "title": "入门版",
+        "description": "开始您的第一个语义SEO项目。",
+        "features_title": "包含功能",
+        "features": [
+          "100积分，有效期1个月",
+          "语义SEO基础功能",
+          "数据可视化",
+          "基础报告生成",
+          "📧 邮件支持（24-48小时响应）"
+        ],
+        "interval": "month",
+        "amount": 1900,
+        "currency": "CNY",
+        "price": "¥19",
+        "original_price": "¥29",
+        "unit": "/月",
+        "is_featured": false,
+        "tip": "月付，长期费用较高",
+        "button": {
+          "title": "立即咨询",
+          "url": "/pricing"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "入门版月付",
+        "credits": 100,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "标准版",
+        "description": "快速启动您的语义SEO项目。",
+        "label": "热门",
+        "features_title": "包含入门版所有功能，另加",
+        "features": [
+          "200积分，有效期1个月",
+          "高级语义分析",
+          "实时SEO监控",
+          "智能报告生成",
+          "💬 技术支持（2-4小时响应）",
+          "🚀 部署指导支持"
+        ],
+        "interval": "month",
+        "amount": 2900,
+        "currency": "CNY",
+        "price": "¥29",
+        "original_price": "¥39",
+        "unit": "/月",
+        "is_featured": false,
+        "tip": "月付，长期费用较高",
+        "button": {
+          "title": "立即咨询",
+          "url": "/pricing"
+        },
+        "product_id": "standard-monthly",
+        "product_name": "标准版月付",
+        "credits": 200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "高级版",
+        "description": "启动任何语义SEO项目。",
+        "features_title": "包含标准版所有功能，另加",
+        "features": [
+          "300积分，有效期1个月",
+          "AI商业功能",
+          "用户中心",
+          "积分系统",
+          "API销售",
+          "管理系统",
+          "优先技术支持",
+          "💬 优先支持（1-2小时响应）",
+          "🛠️ 二次开发指导",
+          "📞 技术咨询",
+          "🎯 项目架构规划"
+        ],
+        "interval": "month",
+        "amount": 4900,
+        "currency": "CNY",
+        "price": "¥49",
+        "original_price": "¥59",
+        "unit": "/月",
+        "is_featured": false,
+        "tip": "月付，长期费用较高",
+        "button": {
+          "title": "立即咨询",
+          "url": "/pricing"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "高级版月付",
+        "credits": 300,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "入门版",
+        "description": "开始您的第一个语义SEO项目。",
+        "features_title": "包含功能",
+        "features": [
+          "100积分，有效期1年",
+          "语义SEO基础功能",
+          "数据可视化",
+          "基础报告生成",
+          "📧 邮件支持（24-48小时响应）"
+        ],
+        "interval": "year",
+        "amount": 19000,
+        "currency": "CNY",
+        "price": "¥16",
+        "original_price": "¥19",
+        "unit": "/月",
+        "is_featured": false,
+        "tip": "年付，比月付节省25%",
+        "button": {
+          "title": "立即咨询",
+          "url": "/pricing"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "入门版年付",
+        "credits": 1200,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "标准版",
+        "description": "快速启动您的语义SEO项目。",
+        "label": "热门",
+        "features_title": "包含入门版所有功能，另加",
+        "features": [
+          "200积分，有效期1年",
+          "高级语义分析",
+          "实时SEO监控",
+          "智能报告生成",
+          "💬 技术支持（2-4小时响应）",
+          "🚀 部署指导支持"
+        ],
+        "interval": "year",
+        "amount": 29000,
+        "currency": "CNY",
+        "price": "¥25",
+        "original_price": "¥29",
+        "unit": "/月",
+        "is_featured": false,
+        "tip": "年付，比月付节省25%",
+        "button": {
+          "title": "立即咨询",
+          "url": "/pricing"
+        },
+        "product_id": "standard-yearly",
+        "product_name": "标准版年付",
+        "credits": 2400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "高级版",
+        "description": "启动任何语义SEO项目。",
+        "features_title": "包含标准版所有功能，另加",
+        "features": [
+          "300积分，有效期1年",
+          "AI商业功能",
+          "用户中心",
+          "积分系统",
+          "API销售",
+          "管理系统",
+          "优先技术支持",
+          "💬 优先支持（1-2小时响应）",
+          "🛠️ 二次开发指导",
+          "📞 技术咨询",
+          "🎯 项目架构规划"
+        ],
+        "interval": "year",
+        "amount": 49000,
+        "currency": "CNY",
+        "price": "¥41",
+        "original_price": "¥49",
+        "unit": "/月",
+        "is_featured": false,
+        "tip": "年付，比月付节省25%",
+        "button": {
+          "title": "立即咨询",
+          "url": "/pricing"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "高级版年付",
+        "credits": 3600,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

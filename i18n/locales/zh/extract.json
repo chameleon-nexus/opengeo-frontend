@@ -1,0 +1,83 @@
+{
+  "pageTitle": "词包蒸馏",
+  "moduleSubtitle": "基于知识库提取品牌信息，通过 AI 联网搜索生成 SEO 关键词",
+  "subtitle": "语义词条任务可在「内容生成」中直接选用语义词包（核心词与扩展词分区勾选）。不需要的词包可在操作列删除。",
+  "actions": {
+    "back": "返回",
+    "newTask": "词包蒸馏",
+    "manualInput": "手动录入",
+    "refresh": "刷新列表",
+    "filter": "按关键词筛选",
+    "view": "查看词条提炼结果",
+    "delete": "删除词包"
+  },
+  "table": {
+    "taskId": "任务 ID",
+    "packName": "词包名称",
+    "type": "类型",
+    "time": "时间",
+    "source": "数据来源",
+    "keywordCount": "关键词数量",
+    "status": "执行状态",
+    "actions": "操作",
+    "entities": "Entities"
+  },
+  "types": {
+    "brandParse": "品牌解析",
+    "manual": "手动录入",
+    "normal": "普通词条",
+    "semantic": "语义词条"
+  },
+  "status": {
+    "completed": "已完成",
+    "processing": "处理中",
+    "failed": "失败",
+    "pending": "待处理"
+  },
+  "form": {
+    "searchPlaceholder": "搜索任务ID或名称"
+  },
+  "module": {
+    "taskName": "任务名称",
+    "taskNamePlaceholder": "输入任务名称，便于后续识别...",
+    "knowledgeBase": "选择知识库 (Knowledge Base Selection)",
+    "loadingKb": "加载知识库中...",
+    "retry": "重试",
+    "noKb": "暂无知识库",
+    "createKbFirst": "请先在知识库中创建",
+    "docCount": "{{count}} 个文档",
+    "kbStatus": {
+      "ready": "就绪",
+      "indexing": "索引中",
+      "idle": "空闲"
+    },
+    "knowledgeGraph": "选择知识图谱",
+    "loading": "加载中...",
+    "noGraph": "暂无知识图谱任务，请先在侧栏「知识图谱」中创建并完成图谱任务。",
+    "noGraphOption": "暂不关联图谱（可选）",
+    "expectedCount": "期望条数",
+    "startExtract": "开始提炼",
+    "expandResult": "扩词结果",
+    "extractResult": "提炼结果",
+    "expandResultHint": "词条生成保存的词包",
+    "extractResultHint": "语义关键词、语义扩展问题"
+  },
+  "productNav": {
+    "back": "返回",
+    "product": "产品",
+    "allProducts": "全部产品",
+    "loading": "加载中...",
+    "noProducts": "暂无产品数据"
+  },
+  "empty": {
+    "noHistory": "暂无历史记录，请先进行关键词生成操作",
+    "noResults": "无匹配结果"
+  },
+  "confirm": {
+    "delete": "确定删除该词包？删除后无法在列表与内容生成中使用。"
+  },
+  "errors": {
+    "loadFailed": "加载历史记录失败",
+    "deleteFailed": "删除失败"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "language": {
+    "zh": "中文",
+    "en": "English",
+    "switch": "Switch language",
+    "settings": "Language"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "reset": "Reset",
+    "back": "Back",
+    "submit": "Submit",
+    "close": "Close",
+    "refresh": "Refresh",
+    "loading": "Loading..."
+  },
+  "status": {
+    "loading": "Loading",
+    "success": "Success",
+    "failed": "Failed",
+    "noData": "No data"
+  }
+}

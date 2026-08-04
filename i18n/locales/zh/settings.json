@@ -1,0 +1,26 @@
+{
+  "title": "设置",
+  "general": "通用设置",
+  "keys": "密钥管理",
+  "keysSubtitle": "配置您的 AI 模型访问凭证",
+  "account": "账户管理",
+  "roles": "角色管理",
+  "saveSuccess": "保存成功",
+  "saveFailed": "保存失败",
+  "generalSettingsPage": {
+    "pageTitle": "通用设置",
+    "subtitle": "系统级配置，影响全局行为",
+    "loading": "加载中...",
+    "mockSectionTitle": "数据展示 Mock 开关",
+    "mockSectionHint": "Mock 仅对 show 角色生效；admin、agent 等始终看真实数据。开启后 show 角色展示演示数据。",
+    "dataScreenMock": "分析明细使用 Mock 数据",
+    "dataScreenMockOn": "当前展示演示数据",
+    "dataScreenMockOff": "当前展示真实监控数据",
+    "diagnosisMock": "诊断报告使用 Mock 数据",
+    "diagnosisMockOn": "当前展示演示数据（运动鞋/HOKA）",
+    "diagnosisMockOff": "当前展示真实分析数据",
+    "saving": "保存中...",
+    "saved": "已保存",
+    "save": "保存设置"
+  }
+}

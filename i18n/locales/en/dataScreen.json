@@ -1,0 +1,91 @@
+{
+  "pageTitle": "Analytics Detail",
+  "subtitle": "Brand visibility and exposure analytics",
+  "actions": {
+    "back": "Back",
+    "backToQuickStart": "Back to Quick Start",
+    "share": "Share",
+    "shareCopied": "Copied",
+    "refresh": "Refresh",
+    "shareLinkTitle": "Copy share link (no login required)",
+    "exportExcel": "Export Excel"
+  },
+  "period": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "last7Days": "Last 7 days",
+    "last30Days": "Last 30 days",
+    "custom": "Custom",
+    "placeholder": "Select date range",
+    "ariaLabel": "Time range"
+  },
+  "tabs": {
+    "allReports": "All reports",
+    "qaReports": "Q&A reports",
+    "brandReports": "Brand reports"
+  },
+  "wizard": {
+    "title": "Quick Start",
+    "subtitle": "GEO lifecycle guided workflow",
+    "bannerTitle": "Quick Start",
+    "bannerHint": "Follow the guide to optimize your brand",
+    "enterGuide": "Enter guide"
+  },
+  "sections": {
+    "totalCollected": "Total indexed",
+    "platformCount": "Indexed platforms",
+    "contactExposure": "Contact exposure",
+    "officialLinkExposure": "Official link exposure",
+    "overallExposureRate": "Overall exposure rate",
+    "todayTrend": "Today",
+    "wordCloud": "Top semantic word cloud",
+    "semanticWords": "Top semantic words",
+    "platformShare": "Platform semantic word share",
+    "dataMetrics": "Data metrics",
+    "reportDetail": "Report detail",
+    "top3Share": "Top 3 share"
+  },
+  "table": {
+    "rank": "No.",
+    "auditTime": "Audit time",
+    "coreWord": "Core keyword",
+    "question": "Sample question",
+    "platform": "Platform",
+    "credential": "Credential",
+    "semanticWord": "Semantic word",
+    "loadingDetail": "Loading report detail…"
+  },
+  "wordCloud": {
+    "noData": "No word cloud data (no Top keywords in report)",
+    "layoutFailed": "Word cloud cannot fit in current canvas (keywords too long or canvas too small)",
+    "tooltipCount": "Count: {{value}}"
+  },
+  "empty": {
+    "selectDateRange": "Please select start and end dates",
+    "noReportData": "No report detail data",
+    "noVisibilityData": "No visibility data",
+    "noAnalyticsData": "No analytics detail data",
+    "completeDiagnosisFirst": "Complete a brand diagnosis or report step in an optimization cycle first"
+  },
+  "disclaimer": "Note: AI model search results vary by user; fluctuations are normal.",
+  "updatedAt": "Updated: {{date}}",
+  "cycle": "Cycle {{number}}",
+  "errors": {
+    "loadFailed": "Failed to load analytics",
+    "shareFailed": "Failed to create share link",
+    "exportFailed": "Export failed"
+  },
+  "brandLogoAlt": "Shanhu GEO",
+  "platforms": {
+    "doubao": "Doubao",
+    "deepseek": "DeepSeek",
+    "wenxin": "ERNIE Bot",
+    "qianwen": "Qwen",
+    "yuanbao": "Yuanbao",
+    "kimi": "Kimi",
+    "quark": "Quark",
+    "nami": "Nami",
+    "xunfei": "iFlytek Spark",
+    "zhipu": "Zhipu AI"
+  }
+}

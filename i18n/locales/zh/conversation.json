@@ -1,0 +1,32 @@
+{
+  "pageTitle": "新建优化",
+  "heroTitle": "GEO大模型",
+  "subtitle": "告诉我你要优化的品牌，我来为你制定优化方案",
+  "subtitleNavigated": "已跳转工作台，可返回继续对话",
+  "actions": {
+    "send": "发送",
+    "uploadMaterials": "上传知识库材料",
+    "uploadMaterialsAria": "上传知识库材料"
+  },
+  "form": {
+    "inputPlaceholder": "描述您的品牌、产品或优化目标…"
+  },
+  "jumpCard": {
+    "created": "已为「{{brandName}}」创建优化流程",
+    "workflowHint": "工作流 ID：{{workflowId}} · 即将自动进入「解析品牌」阶段",
+    "enterWorkbench": "立即进入工作台"
+  },
+  "filesSelected": "已选 {{count}} 个知识库材料",
+  "directStart": "快速入口，直接开始优化",
+  "thinking": "思考中…",
+  "defaultBrandName": "您的品牌",
+  "suggestions": {
+    "newOptimization": "新优化"
+  },
+  "empty": {
+    "noMessages": "开始对话以继续"
+  },
+  "errors": {
+    "createWorkflowFailed": "创建优化主线失败"
+  }
+}

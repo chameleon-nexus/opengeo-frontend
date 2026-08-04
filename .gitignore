@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# 环境变量（勿提交真实配置；仅提交 .env.example）
+.env
+.env.local
+.env.server
+.env.local.__build_hidden__
+.env.*.local
+deploy.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+dist.zip
+
+# 群发助手安装包（手动上传服务器）
+downloads/群发助手.zip
+downloads/*.exe

@@ -1,0 +1,115 @@
+{
+  "optimizationAgent": {
+    "pageTitle": "优化智能体",
+    "subtitle": "定时 GEO 优化任务",
+    "subtitleDetail": "管理周期优化任务（定时生成、发布与诊断验收）",
+    "createMonitoring": "创建监控优化",
+    "loading": "加载中...",
+    "actions": {
+      "back": "返回",
+      "create": "创建任务",
+      "refresh": "刷新",
+      "view": "查看详情",
+      "remove": "从列表移除"
+    },
+    "table": {
+      "brand": "品牌",
+      "taskId": "任务 ID",
+      "keywords": "关键词",
+      "schedule": "调度",
+      "status": "状态",
+      "nextRun": "下次执行",
+      "actions": "操作"
+    },
+    "form": {
+      "searchPlaceholder": "搜索品牌、任务 ID 或关键词"
+    },
+    "schedule": {
+      "hourly6": "每 6 小时",
+      "daily": "每天",
+      "weekly": "每周"
+    },
+    "status": {
+      "pending": "待启动",
+      "running": "运行中",
+      "paused": "已暂停",
+      "accepted": "已达标",
+      "failed": "已结束",
+      "stopped": "手动关闭",
+      "expired": "已到期"
+    },
+    "empty": {
+      "noData": "暂无数据",
+      "noResults": "无匹配结果",
+      "noResultsHint": "请调整搜索条件",
+      "noDataHint": "点击右上角创建周期优化任务"
+    },
+    "confirm": {
+      "remove": "确定从列表中移除该优化任务？将停止定时执行（数据仍保留在库中，列表不再显示）。"
+    },
+    "errors": {
+      "loadFailed": "加载失败",
+      "deleteFailed": "删除失败"
+    }
+  },
+  "optimizationBot": {
+    "pageTitle": "优化任务",
+    "subtitleDetail": "与「快速开始 · 优化记录」相同数据；点击流程节点查看产出（当前页内弹层）。",
+    "cycleTasksTitle": "周期优化任务",
+    "createTitle": "新建优化任务",
+    "actions": {
+      "back": "返回",
+      "create": "创建并启动",
+      "creating": "提交中…",
+      "runNow": "立即开始",
+      "pause": "暂停",
+      "resume": "恢复",
+      "reset": "重置最近一轮",
+      "remove": "从列表移除"
+    },
+    "form": {
+      "brandName": "品牌名称",
+      "brandNamePlaceholder": "品牌名称",
+      "productLine": "产品线 / 产品型号",
+      "productLinePlaceholder": "例如：MacBook Air M4",
+      "keywords": "核心词",
+      "keywordPlaceholder": "输入后回车或点添加",
+      "taskExpiry": "任务有效期",
+      "pointsBudget": "每周期积分预算",
+      "pointsBudgetPlaceholder": "数字"
+    },
+    "status": {
+      "pending": "待启动",
+      "running": "运行中",
+      "paused": "已暂停",
+      "accepted": "已达标",
+      "failed": "已结束",
+      "stopped": "手动关闭",
+      "expired": "已到期",
+      "cycleRunning": "进行中",
+      "cycleCompleted": "已完成",
+      "cycleFailed": "失败",
+      "stepSuccess": "成功",
+      "stepFailed": "失败",
+      "stepSkipped": "跳过"
+    },
+    "empty": {
+      "noData": "无数据"
+    },
+    "confirm": {
+      "remove": "确定从列表中移除该周期任务？将停止定时执行（数据仍保留在库中，列表不再显示）。"
+    },
+    "errors": {
+      "loadFailed": "加载失败",
+      "removeFailed": "移除失败",
+      "operationFailed": "操作失败",
+      "requireBrand": "请填写品牌名",
+      "requireProduct": "请填写产品线/产品型号",
+      "requireKeywords": "请至少添加一个核心词",
+      "requireExpiry": "请填写任务有效期，且须晚于当前时间",
+      "requireTemplate": "请选择范文模板；多范文/仿写/手工请在工作台 GEO 主线使用完整表单。",
+      "requireBudget": "每周期积分预算须为 ≥10 且为 10 的整数倍",
+      "createFailed": "创建失败"
+    }
+  }
+}

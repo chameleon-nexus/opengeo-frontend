@@ -1,0 +1,128 @@
+{
+  "pageTitle": "Content Generation",
+  "pageTitleWorkflow": "Article Generation",
+  "moduleSubtitle": "Select keyword packs and templates to batch-generate high-quality articles",
+  "subtitle": "Manage all content generation tasks",
+  "subtitleWorkflow": "Content batches for this optimization task",
+  "loading": "Loading…",
+  "actions": {
+    "back": "Back",
+    "backToList": "Back to list",
+    "backToWorkbench": "Back to optimization workbench",
+    "refresh": "Refresh",
+    "refreshList": "Refresh list",
+    "filter": "Filter by keyword",
+    "createTask": "Create content generation task",
+    "copyArticle": "Copy article",
+    "copied": "Copied",
+    "downloadWord": "Download Word",
+    "downloadWordRongmei": "Download Word (Rongmeibao)",
+    "downloadZip": "Download ZIP",
+    "downloadBatchZip": "Download batch ZIP (Rongmeibao)"
+  },
+  "table": {
+    "batchId": "Batch ID",
+    "time": "Time",
+    "keyword": "Keyword",
+    "status": "Status",
+    "articleCount": "Articles",
+    "createdAt": "Created at",
+    "actions": "Actions"
+  },
+  "articlesTable": {
+    "index": "#",
+    "title": "Article title",
+    "keyword": "Keyword",
+    "template": "Template",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "batchArticles": {
+    "title": "Batch articles",
+    "articleCount": "{{count}} articles"
+  },
+  "articles": {
+    "rewrite": "Rewrite",
+    "templatePrefix": "Template:",
+    "keywordPrefix": "Keyword:",
+    "empty": "No articles yet"
+  },
+  "status": {
+    "completed": "Completed",
+    "processing": "Generating",
+    "failed": "Failed",
+    "pending": "Pending"
+  },
+  "form": {
+    "searchPlaceholder": "Search batch ID or keyword"
+  },
+  "empty": {
+    "noTasks": "No generation tasks yet",
+    "noArticles": "No article content",
+    "noResults": "No matching results",
+    "noData": "No data",
+    "createHint": "Click \"Create content generation task\" above",
+    "generating": "Generating…"
+  },
+  "detail": {
+    "title": "Article detail",
+    "generatedArticle": "Generated article"
+  },
+  "module": {
+    "ragKb": "Link RAG knowledge base",
+    "optional": "Optional",
+    "noData": "No data",
+    "knowledgeGraph": "Knowledge graph",
+    "kgRequired": "Required · from Knowledge Graph module",
+    "noKgTasks": "No knowledge graph tasks",
+    "createKgFirst": "Create and complete a graph task in Knowledge Graph first",
+    "selectPack": "Select keyword pack",
+    "packTypesHint": "Standard, manual, and semantic keyword packs",
+    "noPacks": "No keyword packs",
+    "createPackFirst": "Create a pack in the keyword distillation flow first",
+    "packTypes": {
+      "normal": "Standard",
+      "manual": "Manual",
+      "semantic": "Semantic"
+    },
+    "keywordCount": "{{count}} keywords",
+    "selectKeywords": "Select keywords",
+    "manualHint": "Multi-select; each keyword generates one article",
+    "selectAll": "Select all",
+    "loadingKeywords": "Loading keywords…",
+    "noKeywords": "No keywords in this task",
+    "selectedCount": "{{count}} keywords selected:",
+    "semanticHint": "Semantic packs have core and extension keywords; select by section or individually",
+    "coreWords": "Core keywords",
+    "extensionWords": "Extension keywords",
+    "selectSection": "Select section",
+    "score": "Score: {{score}}",
+    "normalPack": "Standard pack",
+    "coreWordsLabel": "Core keywords:",
+    "allKeywordsParticipate": "{{count}} keywords, all included in generation",
+    "templates": "Article templates",
+    "templatesHint": "Optional; multiple templates = more articles; default style if none selected",
+    "noTemplates": "No article templates",
+    "addTemplatesHint": "Add templates in Personal Center",
+    "charCount": "{{count}} chars",
+    "promotedBrand": "Promoted brand",
+    "promotedBrandHint": "Optional; ranking articles put this brand first; other types emphasize it",
+    "promotedBrandPlaceholder": "Enter brand name to promote",
+    "promotedBrandPreview": "Promoted brand: {{brand}} — AI will search competitors and highlight this brand",
+    "articleEstimate": "Estimated {{count}} articles",
+    "articleEstimateDetail": "({{kw}} keywords × {{tpl}} templates)",
+    "submitting": "Submitting…",
+    "startGenerate": "Start generation"
+  },
+  "errors": {
+    "loadFailed": "Failed to load details",
+    "downloadWordFailed": "Failed to download Word",
+    "downloadZipFailed": "Failed to download ZIP",
+    "invalidTask": "Invalid task data",
+    "selectPack": "Select a keyword pack",
+    "selectKg": "Select a knowledge graph (create one in Knowledge Graph first)",
+    "selectKeyword": "Select at least one keyword",
+    "noKeywordsInPack": "No usable keywords in this pack",
+    "generateFailed": "Generation failed: {{message}}"
+  }
+}
